@@ -13,18 +13,20 @@ import type {SidebarsConfig} from '@docusaurus/plugin-content-docs';
  Create as many sidebars as you want.
  */
 const sidebars: SidebarsConfig = {
-  // AI-Human Collaboration Lab sidebar
+  // AI-Human Collaboration sidebar
   projectSidebar: [
     'intro',
     {
       type: 'category',
       label: 'Project 001 - Uniserv NFT Carbon Credit',
+      collapsed: false, // Expanded by default
       items: [
         'uniserv-nft-carbon-credit/INDEX',
         'uniserv-nft-carbon-credit/PROJECT_OVERVIEW',
         {
           type: 'category',
           label: 'Personal Diary',
+          collapsed: false, // Expanded by default
           items: [
             'uniserv-nft-carbon-credit/diary/HONEST_REFLECTION',
             'uniserv-nft-carbon-credit/diary/SESSION_BY_SESSION_REALITY',
@@ -36,6 +38,7 @@ const sidebars: SidebarsConfig = {
         {
           type: 'category',
           label: 'Analysis',
+          collapsed: false, // Expanded by default
           items: [
             'uniserv-nft-carbon-credit/analysis/CHALLENGES_AND_SOLUTIONS',
             'uniserv-nft-carbon-credit/analysis/COLLABORATION_FAILURE_POINTS',
@@ -44,6 +47,7 @@ const sidebars: SidebarsConfig = {
         {
           type: 'category',
           label: 'Reports',
+          collapsed: false, // Expanded by default
           items: [
             'uniserv-nft-carbon-credit/reports/PROJECT_FINAL_REPORT',
             'uniserv-nft-carbon-credit/reports/TECHNICAL_ACHIEVEMENTS',

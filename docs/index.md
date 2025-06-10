@@ -1,10 +1,10 @@
-# AI-Human Collaboration Laboratory
+# AI-Human Collaborationoratory
 
-Welcome to the AI-Human Collaboration Laboratory - a collection of comprehensive retrospectives documenting AI-human collaborative development projects.
+Welcome to the AI-Human Collaborationoratory - a collection of comprehensive retrospectives documenting AI-human collaborative development projects.
 
 ## 🚀 Live Documentation Site
 
-Visit the live documentation: **[AI-Human Collaboration Lab](https://alchemycat.github.io/AI-HUMAN-COLLAB-CAT-LAB/)**
+Visit the live documentation: **[AI-Human Collaboration](https://alchemycat.github.io/AI-HUMAN-COLLAB-CAT-LAB/)**
 
 ## 📁 Projects
 
@@ -43,7 +43,7 @@ This laboratory serves as:
 
 ## 🔗 Links
 
-- **Live Site**: [AI-Human Collaboration Lab](https://alchemycat.github.io/AI-HUMAN-COLLAB-CAT-LAB/)
+- **Live Site**: [AI-Human Collaboration](https://alchemycat.github.io/AI-HUMAN-COLLAB-CAT-LAB/)
 - **Source Repository**: [GitHub](https://github.com/alchemycat/AI-HUMAN-COLLAB-CAT-LAB)
 - **Project 001 Deep Dive**: [Uniserv NFT Retrospective](001-uniserv-nft-carbon-credit/INDEX.md)
 

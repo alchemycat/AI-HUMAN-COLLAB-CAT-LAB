@@ -6,7 +6,7 @@ This repository serves as a **template system** for creating beautiful static do
 
 ## What This Repository Is
 
-**AI-Human Collaboration Laboratory** is a documentation template generator that:
+**AI-Human Collaborationoratory** is a documentation template generator that:
 
 - ✅ **Converts** comprehensive markdown documentation into beautiful static sites
 - ✅ **Preserves** complete AI-human collaboration histories and insights  

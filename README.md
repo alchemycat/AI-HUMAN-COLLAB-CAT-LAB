@@ -1,4 +1,4 @@
-# AI-Human Collaboration Laboratory
+# AI-Human Collaborationoratory
 
 **🔧 Template Repository for AI-Human Collaboration Documentation**
 
@@ -15,7 +15,7 @@ This repository serves as a **template system** for creating beautiful static do
 
 ## 🚀 Live Documentation Site
 
-Visit the live documentation: **[AI-Human Collaboration Lab](https://alchemycat.github.io/AI-HUMAN-COLLAB-CAT-LAB/)**
+Visit the live documentation: **[AI-Human Collaboration](https://alchemycat.github.io/AI-HUMAN-COLLAB-CAT-LAB/)**
 
 ## 📁 Projects
 
@@ -121,7 +121,7 @@ uv run mkdocs gh-deploy
 
 ## 🔗 Links
 
-- **Live Site**: [AI-Human Collaboration Lab](https://alchemycat.github.io/AI-HUMAN-COLLAB-CAT-LAB/)
+- **Live Site**: [AI-Human Collaboration](https://alchemycat.github.io/AI-HUMAN-COLLAB-CAT-LAB/)
 - **Source Repository**: [GitHub](https://github.com/alchemycat/AI-HUMAN-COLLAB-CAT-LAB)
 - **Project 001 Deep Dive**: [Uniserv NFT Retrospective](001-uniserv-nft-carbon-credit/INDEX.md)
 

@@ -5,7 +5,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: 'AI-Human Collaboration Lab',
+  title: 'AI-Human Collaboration',
   tagline: 'Documentation archive for AI-human collaborative development projects',
   favicon: 'img/favicon.ico',
 
@@ -48,9 +48,9 @@ const config: Config = {
             'https://github.com/alchemycat/AI-HUMAN-COLLAB-CAT-LAB/tree/main/docusaurus-site/',
         },
         blog: {
-          routeBasePath: '/', // Set blog as homepage
+          routeBasePath: '/blog', // Move blog back to /blog
           showReadingTime: true,
-          blogSidebarTitle: 'All Posts',
+          blogSidebarTitle: 'AI-Human Collaboration',
           blogSidebarCount: 'ALL',
           postsPerPage: 10,
           blogTitle: 'AI-Human Collaboration Stories',
@@ -79,9 +79,9 @@ const config: Config = {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
     navbar: {
-      title: 'AI-Human Collaboration Lab',
+      title: 'AI-Human Collaboration',
       logo: {
-        alt: 'AI-Human Collaboration Lab Logo',
+        alt: 'AI-Human Collaboration Logo',
         src: 'img/logo.svg',
       },
       items: [
@@ -89,9 +89,13 @@ const config: Config = {
           type: 'docSidebar',
           sidebarId: 'projectSidebar',
           position: 'left',
-          label: 'Projects',
+          label: 'Documentation',
         },
-        {to: '/docs/intro', label: 'Documentation', position: 'left'},
+        {
+          to: '/blog',
+          label: 'Stories',
+          position: 'left',
+        },
         {
           href: 'https://github.com/alchemycat/AI-HUMAN-COLLAB-CAT-LAB',
           label: 'GitHub',
@@ -142,7 +146,7 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} AI-Human Collaboration Lab. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} AI-Human Collaboration. Built with Docusaurus.`,
     },
     prism: {
       theme: prismThemes.github,

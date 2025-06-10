@@ -2,9 +2,9 @@
 sidebar_position: 1
 ---
 
-# AI-Human Collaboration Laboratory
+# AI-Human Collaborationoratory
 
-Welcome to the **AI-Human Collaboration Laboratory** - a collection of comprehensive retrospectives documenting AI-human collaborative development projects.
+Welcome to the **AI-Human Collaborationoratory** - a collection of comprehensive retrospectives documenting AI-human collaborative development projects.
 
 ## 🎯 Purpose
 

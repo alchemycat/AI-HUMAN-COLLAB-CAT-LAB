@@ -1,4 +1,4 @@
-site_name: AI-Human Collaboration Lab
+site_name: AI-Human Collaboration
 site_description: Documentation archive for AI-human collaborative development projects
 site_author: AI-Human Collaboration Team
 site_url: https://alchemycat.github.io/AI-HUMAN-COLLAB-CAT-LAB/
@@ -107,4 +107,4 @@ extra:
 
 # Copyright
 copyright: |
-  &copy; 2025 AI-Human Collaboration Lab
+  &copy; 2025 AI-Human Collaboration
