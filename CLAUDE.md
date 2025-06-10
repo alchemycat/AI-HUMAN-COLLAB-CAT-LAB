@@ -2,7 +2,7 @@
 
 ## Purpose
 
-This repository serves as a **template system** for creating beautiful static documentation sites from AI-human collaborative development projects. It transforms comprehensive project retrospectives into professional, searchable documentation websites using MkDocs with Material theme.
+This repository serves as a **template system** for creating beautiful static documentation sites from AI-human collaborative development projects. It transforms comprehensive project retrospectives into professional, searchable documentation websites using Docusaurus with internationalization support.
 
 ## What This Repository Is
 
@@ -60,14 +60,17 @@ This comprehensive retrospective (37,396+ words across 12 core documents) serves
 
 ### Static Site Generation
 
-This repository uses **MkDocs with Material theme** to generate beautiful documentation sites:
+This repository uses **Docusaurus** to generate beautiful documentation sites:
 
 - **Responsive Design**: Works perfectly on mobile and desktop
 - **Dark/Light Themes**: User-toggleable theme switching
-- **Full-Text Search**: Powered by Lunr.js with multiple language support
+- **Internationalization**: Full support for multiple languages (English and Thai)
+- **Full-Text Search**: Built-in search functionality
 - **Navigation Hierarchy**: Auto-generated table of contents and cross-references
 - **GitHub Integration**: Direct edit/view source links
-- **Social Features**: GitHub repository integration and feedback system
+- **Blog Support**: Integrated blog system for project stories
+- **MDX Support**: Enhanced markdown with React components
+- **Versioning**: Built-in documentation versioning support
 
 ## How to Use This Template
 
@@ -93,43 +96,52 @@ This repository uses **MkDocs with Material theme** to generate beautiful docume
    - Write your complete story in `blog/`
 
 4. **Update Navigation**
-   - Edit `mkdocs.yml` to add your project to the navigation
-   - Update `docs/index.md` to reference your project
+   - Edit `sidebars.ts` to add your project to the navigation
+   - Update `docs/intro.md` to reference your project
+   - Add blog posts to `blog/` directory
+   - Configure internationalization in `i18n/` if needed
    - Ensure all cross-references work correctly
 
 5. **Generate Static Site**
    ```bash
-   uv run mkdocs serve    # Preview locally
-   uv run mkdocs build    # Build static site
-   uv run mkdocs gh-deploy # Deploy to GitHub Pages
+   npm install           # Install dependencies
+   npm run start         # Preview locally
+   npm run build         # Build static site
+   npm run serve         # Test production build
+   npm run deploy        # Deploy to GitHub Pages
    ```
 
 ### For Template System Maintenance
 
 #### Prerequisites
-- Python 3.10+
-- [uv](https://github.com/astral-sh/uv) package manager
+- Node.js 18.0+ and npm
 - Git and GitHub CLI
 
 #### Development Setup
 ```bash
 # Clone the template repository
 git clone https://github.com/alchemycat/AI-HUMAN-COLLAB-CAT-LAB.git
-cd AI-HUMAN-COLLAB-CAT-LAB
+cd AI-HUMAN-COLLAB-CAT-LAB/docusaurus-site
 
 # Install dependencies
-uv sync
+npm install
 
 # Serve documentation locally
-uv run mkdocs serve
+npm run start
+
+# For Thai language development
+npm run start -- --locale th
 ```
 
 #### Adding New Projects to Template
 1. Create new project directory with number prefix: `00X-project-name/`
 2. Follow the established documentation structure
-3. Update `mkdocs.yml` navigation section
-4. Test site generation: `uv run mkdocs build`
-5. Deploy: `uv run mkdocs gh-deploy`
+3. Copy documentation to `docs/` directory
+4. Add blog posts to `blog/` directory
+5. Update `sidebars.ts` navigation configuration
+6. Add translations to `i18n/th/` if supporting Thai
+7. Test site generation: `npm run build`
+8. Deploy: `npm run deploy`
 
 ## Key Features of This Template
 
@@ -149,7 +161,7 @@ uv run mkdocs serve
 
 ### Developer-Friendly
 - **Template Documentation**: Clear usage instructions (this file)
-- **Build System**: MkDocs with Material theme for consistent quality
+- **Build System**: Docusaurus with React-based architecture
 - **Version Control**: Git-based workflow with proper branching
 - **Deployment**: One-command GitHub Pages deployment
 - **Extensible**: Easy to add new project types and documentation patterns
@@ -197,7 +209,7 @@ To contribute improvements to this template system:
 
 1. Fork the repository
 2. Create a feature branch: `git checkout -b feature/improvement-name`
-3. Make your changes and test with `uv run mkdocs serve`
+3. Make your changes and test with `npm run start`
 4. Submit a pull request with detailed description
 
 ## License
