@@ -1,6 +1,6 @@
 # Development Timeline: Session-by-Session Journey
 
-🔗 **Navigation**: [📋 INDEX](../INDEX.md) | [📝 Diary Home](../diary/) | [🔍 Analysis](../analysis/) | [📊 Reports](../reports/)
+🔗 **Navigation**: [📋 INDEX](../index.md) | [📝 Diary Home](HONEST_REFLECTION.md) | [🔍 Analysis](../analysis/CHALLENGES_AND_SOLUTIONS.md) | [📊 Reports](../reports/PROJECT_FINAL_REPORT.md)
 
 **Related Reads**: [Session by Session Reality](SESSION_BY_SESSION_REALITY.md) | [Technical Evolution](TECHNICAL_EVOLUTION.md) | [Complete Story](../blog/AI_HUMAN_COLLABORATION_STORY.md)
 

@@ -1,6 +1,6 @@
 # Collaboration Insights: What Actually Worked
 
-🔗 **Navigation**: [📋 INDEX](../INDEX.md) | [📝 Diary Home](../diary/) | [🔍 Analysis](../analysis/) | [📊 Reports](../reports/)
+🔗 **Navigation**: [📋 INDEX](../index.md) | [📝 Diary Home](HONEST_REFLECTION.md) | [🔍 Analysis](../analysis/CHALLENGES_AND_SOLUTIONS.md) | [📊 Reports](../reports/PROJECT_FINAL_REPORT.md)
 
 **Related Reads**: [Honest Reflection](HONEST_REFLECTION.md) | [Collaboration Failure Points](../analysis/COLLABORATION_FAILURE_POINTS.md) | [Session by Session Reality](SESSION_BY_SESSION_REALITY.md)
 

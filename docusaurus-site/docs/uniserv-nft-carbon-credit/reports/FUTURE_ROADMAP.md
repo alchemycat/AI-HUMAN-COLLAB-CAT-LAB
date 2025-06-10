@@ -1,6 +1,6 @@
 # Future Roadmap: Next Steps
 
-🔗 **Navigation**: [📋 INDEX](../INDEX.md) | [📝 Diary](../diary/) | [🔍 Analysis](../analysis/) | [📊 Reports Home](../reports/)
+🔗 **Navigation**: [📋 INDEX](../index.md) | [📝 Diary](../diary/HONEST_REFLECTION.md) | [🔍 Analysis](../analysis/CHALLENGES_AND_SOLUTIONS.md) | [📊 Reports Home](PROJECT_FINAL_REPORT.md)
 
 **Related Reads**: [Project Final Report](PROJECT_FINAL_REPORT.md) | [Technical Achievements](TECHNICAL_ACHIEVEMENTS.md) | [Challenges & Solutions](../analysis/CHALLENGES_AND_SOLUTIONS.md)
 

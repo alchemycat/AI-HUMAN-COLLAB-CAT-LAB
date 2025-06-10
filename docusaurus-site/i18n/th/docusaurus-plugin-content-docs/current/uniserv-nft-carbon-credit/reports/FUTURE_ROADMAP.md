@@ -1,6 +1,6 @@
 # แผนงานในอนาคต: ขั้นตอนถัดไป
 
-🔗 **เมนูนำทาง**: [📋 หน้าหลัก](../INDEX.md) | [📝 บันทึกประจำวัน](../diary/) | [🔍 การวิเคราะห์](../analysis/) | [📊 หน้าหลักรายงาน](../reports/)
+🔗 **เมนูนำทาง**: [📋 หน้าหลัก](../index.md) | [📝 บันทึกประจำวัน](../diary/HONEST_REFLECTION.md) | [🔍 การวิเคราะห์](../analysis/CHALLENGES_AND_SOLUTIONS.md) | [📊 หน้าหลักรายงาน](PROJECT_FINAL_REPORT.md)
 
 **บทความที่เกี่ยวข้อง**: [รายงานสรุปโครงการ](PROJECT_FINAL_REPORT.md) | [ความสำเร็จทางเทคนิค](TECHNICAL_ACHIEVEMENTS.md) | [ความท้าทายและแนวทางแก้ไข](../analysis/CHALLENGES_AND_SOLUTIONS.md)
 

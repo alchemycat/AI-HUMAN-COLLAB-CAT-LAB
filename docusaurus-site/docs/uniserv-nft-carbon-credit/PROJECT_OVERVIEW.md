@@ -1,6 +1,6 @@
 # Project 001: Uniserv NFT Carbon Credit System
 
-🔗 **Navigation**: [📋 INDEX](INDEX.md) | [📝 Diary](diary/) | [🔍 Analysis](analysis/) | [📊 Reports](reports/) | [📖 Blog](blog/)
+🔗 **Navigation**: [📋 INDEX](index.md) | [📝 Diary](diary/HONEST_REFLECTION.md) | [🔍 Analysis](analysis/CHALLENGES_AND_SOLUTIONS.md) | [📊 Reports](reports/PROJECT_FINAL_REPORT.md) | [📖 Blog](/blog/ai-human-collaboration-story)
 
 ---
 

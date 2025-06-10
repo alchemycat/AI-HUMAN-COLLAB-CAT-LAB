@@ -26,4 +26,4 @@ A complete blockchain-based carbon credit system featuring:
 - 6 production-ready frontend interfaces
 - Comprehensive documentation and testing
 
-[Read the complete story →](../project-001-overview)
+[Read the complete story →](/blog/ai-human-collaboration-story)

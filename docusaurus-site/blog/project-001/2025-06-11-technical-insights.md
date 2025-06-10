@@ -27,4 +27,4 @@ Achieved 90% performance improvement by batching RPC calls.
 - On-chain SVG generation
 - Gas-optimized batch operations
 
-[Explore the technical details →](../../docs/uniserv-nft-carbon-credit/diary/TECHNICAL_EVOLUTION)
+[Explore the technical details →](/docs/uniserv-nft-carbon-credit/diary/TECHNICAL_EVOLUTION)

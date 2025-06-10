@@ -27,4 +27,4 @@ tags: [technical, blockchain, multi-chain]
 - การสร้าง SVG บนเชน
 - การดำเนินการแบบแบทช์ที่ประหยัดแก๊ส
 
-[สำรวจรายละเอียดทางเทคนิค →](../../docs/uniserv-nft-carbon-credit/diary/TECHNICAL_EVOLUTION)
+[สำรวจรายละเอียดทางเทคนิค →](/docs/uniserv-nft-carbon-credit/diary/TECHNICAL_EVOLUTION)

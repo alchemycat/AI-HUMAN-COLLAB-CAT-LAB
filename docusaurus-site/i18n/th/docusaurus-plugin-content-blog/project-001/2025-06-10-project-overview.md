@@ -26,4 +26,4 @@ tags: [project-overview, nft, carbon-credit]
 - 6 อินเทอร์เฟซ frontend ที่พร้อมใช้งานจริง
 - เอกสารและการทดสอบที่ครอบคลุม
 
-[อ่านเรื่องราวฉบับสมบูรณ์ →](../project-001-overview)
+[อ่านเรื่องราวฉบับสมบูรณ์ →](/blog/ai-human-collaboration-story)

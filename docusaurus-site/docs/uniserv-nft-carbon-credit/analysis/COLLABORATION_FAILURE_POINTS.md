@@ -1,6 +1,6 @@
 # Collaboration Failure Points: What Almost Broke This
 
-🔗 **Navigation**: [📋 INDEX](../INDEX.md) | [📝 Diary](../diary/) | [🔍 Analysis Home](../analysis/) | [📊 Reports](../reports/)
+🔗 **Navigation**: [📋 INDEX](../index.md) | [📝 Diary](../diary/HONEST_REFLECTION.md) | [🔍 Analysis Home](CHALLENGES_AND_SOLUTIONS.md) | [📊 Reports](../reports/PROJECT_FINAL_REPORT.md)
 
 **Related Reads**: [Honest Reflection](../diary/HONEST_REFLECTION.md) | [Collaboration Insights](../diary/COLLABORATION_INSIGHTS.md) | [Session by Session Reality](../diary/SESSION_BY_SESSION_REALITY.md)
 

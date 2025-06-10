@@ -1,6 +1,6 @@
 # From Concept to Carbon: Building a Multi-Chain NFT System with AI
 
-🔗 **Navigation**: [📋 INDEX](../INDEX.md) | [📝 Diary](../diary/) | [🔍 Analysis](../analysis/) | [📊 Reports](../reports/)
+🔗 **Navigation**: [📋 INDEX](../index.md) | [📝 Diary](../diary/HONEST_REFLECTION.md) | [🔍 Analysis](../analysis/CHALLENGES_AND_SOLUTIONS.md) | [📊 Reports](../reports/PROJECT_FINAL_REPORT.md)
 
 **Related Reads**: [Development Timeline](../diary/DEVELOPMENT_TIMELINE.md) | [Project Final Report](../reports/PROJECT_FINAL_REPORT.md) | [Session by Session Reality](../diary/SESSION_BY_SESSION_REALITY.md)
 

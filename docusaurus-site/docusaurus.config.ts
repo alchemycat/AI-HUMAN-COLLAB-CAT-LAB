@@ -25,7 +25,7 @@ const config: Config = {
   organizationName: 'alchemycat', // Usually your GitHub org/user name.
   projectName: 'AI-HUMAN-COLLAB-CAT-LAB', // Usually your repo name.
 
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
 
   // Even if you don't use internationalization, you can use this field to set

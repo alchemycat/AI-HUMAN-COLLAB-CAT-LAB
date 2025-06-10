@@ -1,6 +1,6 @@
 # Session by Session Reality: What Actually Happened
 
-🔗 **Navigation**: [📋 INDEX](../INDEX.md) | [📝 Diary Home](../diary/) | [🔍 Analysis](../analysis/) | [📊 Reports](../reports/)
+🔗 **Navigation**: [📋 INDEX](../index.md) | [📝 Diary Home](HONEST_REFLECTION.md) | [🔍 Analysis](../analysis/CHALLENGES_AND_SOLUTIONS.md) | [📊 Reports](../reports/PROJECT_FINAL_REPORT.md)
 
 **Related Reads**: [Honest Reflection](HONEST_REFLECTION.md) | [Development Timeline](DEVELOPMENT_TIMELINE.md) | [Technical Evolution](TECHNICAL_EVOLUTION.md)
 

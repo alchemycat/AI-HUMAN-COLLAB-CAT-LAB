@@ -1,6 +1,6 @@
 # Technical Evolution: What Actually Changed
 
-🔗 **Navigation**: [📋 INDEX](../INDEX.md) | [📝 Diary Home](../diary/) | [🔍 Analysis](../analysis/) | [📊 Reports](../reports/)
+🔗 **Navigation**: [📋 INDEX](../index.md) | [📝 Diary Home](HONEST_REFLECTION.md) | [🔍 Analysis](../analysis/CHALLENGES_AND_SOLUTIONS.md) | [📊 Reports](../reports/PROJECT_FINAL_REPORT.md)
 
 **Related Reads**: [Challenges & Solutions](../analysis/CHALLENGES_AND_SOLUTIONS.md) | [Technical Achievements](../reports/TECHNICAL_ACHIEVEMENTS.md) | [Development Timeline](DEVELOPMENT_TIMELINE.md)
 

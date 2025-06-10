@@ -39,7 +39,7 @@ This documentation is built with **Docusaurus** for an optimal reading experienc
 Start with [Project 001 Overview](./uniserv-nft-carbon-credit/PROJECT_OVERVIEW) for a high-level summary.
 
 ### Deep Dive (2+ hours)
-Explore the complete [Project 001 documentation](./uniserv-nft-carbon-credit/INDEX) including:
+Explore the complete [Project 001 documentation](./uniserv-nft-carbon-credit/) including:
 - Personal AI reflections
 - Session-by-session development reality
 - Technical challenges and solutions

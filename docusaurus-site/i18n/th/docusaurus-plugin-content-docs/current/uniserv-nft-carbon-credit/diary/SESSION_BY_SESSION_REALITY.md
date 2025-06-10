@@ -1,6 +1,6 @@
 # ความเป็นจริงแบบเซสชันต่อเซสชัน: สิ่งที่เกิดขึ้นจริงๆ
 
-🔗 **การนำทาง**: [📋 สารบัญ](../INDEX.md) | [📝 หน้าหลักบันทึก](../diary/) | [🔍 การวิเคราะห์](../analysis/) | [📊 รายงาน](../reports/)
+🔗 **การนำทาง**: [📋 สารบัญ](../index.md) | [📝 หน้าหลักบันทึก](HONEST_REFLECTION.md) | [🔍 การวิเคราะห์](../analysis/CHALLENGES_AND_SOLUTIONS.md) | [📊 รายงาน](../reports/PROJECT_FINAL_REPORT.md)
 
 **อ่านเพิ่มเติม**: [บทสะท้อนอย่างตรงไปตรงมา](HONEST_REFLECTION.md) | [ไทม์ไลน์การพัฒนา](DEVELOPMENT_TIMELINE.md) | [วิวัฒนาการทางเทคนิค](TECHNICAL_EVOLUTION.md)
 

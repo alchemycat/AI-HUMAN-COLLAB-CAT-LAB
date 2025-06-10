@@ -1,6 +1,6 @@
 # Challenges and Solutions: What We Actually Fixed
 
-🔗 **Navigation**: [📋 INDEX](../INDEX.md) | [📝 Diary](../diary/) | [🔍 Analysis Home](../analysis/) | [📊 Reports](../reports/)
+🔗 **Navigation**: [📋 INDEX](../index.md) | [📝 Diary](../diary/HONEST_REFLECTION.md) | [🔍 Analysis Home](CHALLENGES_AND_SOLUTIONS.md) | [📊 Reports](../reports/PROJECT_FINAL_REPORT.md)
 
 **Related Reads**: [Technical Evolution](../diary/TECHNICAL_EVOLUTION.md) | [Collaboration Failure Points](COLLABORATION_FAILURE_POINTS.md) | [Technical Achievements](../reports/TECHNICAL_ACHIEVEMENTS.md)
 

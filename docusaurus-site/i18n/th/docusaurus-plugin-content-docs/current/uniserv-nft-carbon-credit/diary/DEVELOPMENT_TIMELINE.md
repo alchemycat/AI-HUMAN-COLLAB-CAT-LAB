@@ -1,6 +1,6 @@
 # ไทม์ไลน์การพัฒนา: การเดินทางแบบ Session-by-Session
 
-🔗 **การนำทาง**: [📋 INDEX](../INDEX.md) | [📝 Diary Home](../diary/) | [🔍 การวิเคราะห์](../analysis/) | [📊 รายงาน](../reports/)
+🔗 **การนำทาง**: [📋 INDEX](../index.md) | [📝 Diary Home](HONEST_REFLECTION.md) | [🔍 การวิเคราะห์](../analysis/CHALLENGES_AND_SOLUTIONS.md) | [📊 รายงาน](../reports/PROJECT_FINAL_REPORT.md)
 
 **อ่านเพิ่มเติม**: [ความเป็นจริงแบบ Session by Session](SESSION_BY_SESSION_REALITY.md) | [วิวัฒนาการทางเทคนิค](TECHNICAL_EVOLUTION.md) | [เรื่องราวฉบับสมบูรณ์](../blog/AI_HUMAN_COLLABORATION_STORY.md)
 

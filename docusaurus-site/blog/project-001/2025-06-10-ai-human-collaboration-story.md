@@ -77,23 +77,23 @@ Our AI-human partnership evolved into a highly efficient development workflow:
 The full project documentation includes multiple perspectives and analysis types:
 
 #### Personal Reflections
-- [Honest AI Reflection](../docs/uniserv-nft-carbon-credit/diary/HONEST_REFLECTION) - Unfiltered AI perspective on collaboration
-- [Session-by-Session Reality](../docs/uniserv-nft-carbon-credit/diary/SESSION_BY_SESSION_REALITY) - Development timeline with real challenges
-- [Collaboration Insights](../docs/uniserv-nft-carbon-credit/diary/COLLABORATION_INSIGHTS) - Communication patterns that worked
+- [Honest AI Reflection](/docs/uniserv-nft-carbon-credit/diary/HONEST_REFLECTION) - Unfiltered AI perspective on collaboration
+- [Session-by-Session Reality](/docs/uniserv-nft-carbon-credit/diary/SESSION_BY_SESSION_REALITY) - Development timeline with real challenges
+- [Collaboration Insights](/docs/uniserv-nft-carbon-credit/diary/COLLABORATION_INSIGHTS) - Communication patterns that worked
 
 #### Technical Analysis
-- [Challenges & Solutions](../docs/uniserv-nft-carbon-credit/analysis/CHALLENGES_AND_SOLUTIONS) - Specific problems with code examples
-- [Technical Evolution](../docs/uniserv-nft-carbon-credit/diary/TECHNICAL_EVOLUTION) - Architecture decisions and migrations
-- [Technical Achievements](../docs/uniserv-nft-carbon-credit/reports/TECHNICAL_ACHIEVEMENTS) - Measurable outcomes and innovations
+- [Challenges & Solutions](/docs/uniserv-nft-carbon-credit/analysis/CHALLENGES_AND_SOLUTIONS) - Specific problems with code examples
+- [Technical Evolution](/docs/uniserv-nft-carbon-credit/diary/TECHNICAL_EVOLUTION) - Architecture decisions and migrations
+- [Technical Achievements](/docs/uniserv-nft-carbon-credit/reports/TECHNICAL_ACHIEVEMENTS) - Measurable outcomes and innovations
 
 #### Executive Reports
-- [Project Final Report](../docs/uniserv-nft-carbon-credit/reports/PROJECT_FINAL_REPORT) - Comprehensive project summary
-- [Future Roadmap](../docs/uniserv-nft-carbon-credit/reports/FUTURE_ROADMAP) - Next steps and opportunities
+- [Project Final Report](/docs/uniserv-nft-carbon-credit/reports/PROJECT_FINAL_REPORT) - Comprehensive project summary
+- [Future Roadmap](/docs/uniserv-nft-carbon-credit/reports/FUTURE_ROADMAP) - Next steps and opportunities
 
 ### Reading Paths
-- **15-minute overview**: [Project Overview](../docs/uniserv-nft-carbon-credit/PROJECT_OVERVIEW)
-- **1-hour deep dive**: [Complete Story](../docs/uniserv-nft-carbon-credit/blog/AI_HUMAN_COLLABORATION_STORY) 
-- **2-hour complete experience**: Start with [INDEX](../docs/uniserv-nft-carbon-credit/INDEX) for full navigation
+- **15-minute overview**: [Project Overview](/docs/uniserv-nft-carbon-credit/PROJECT_OVERVIEW)
+- **1-hour deep dive**: [Complete Story](/docs/uniserv-nft-carbon-credit/blog/AI_HUMAN_COLLABORATION_STORY) 
+- **2-hour complete experience**: Start with [INDEX](/docs/uniserv-nft-carbon-credit/) for full navigation
 
 ## Innovation Highlights
 
@@ -124,6 +124,6 @@ Dynamic logo generation based on NFT class with embedded metadata.
 
 ## 🔗 Links & Resources
 
-**📖 Explore the complete documentation**: [Project 001 Index](../docs/uniserv-nft-carbon-credit/INDEX)
+**📖 Explore the complete documentation**: [Project 001 Index](/docs/uniserv-nft-carbon-credit/)
 
 **🐙 View source code & commits**: [GitHub Repository](https://github.com/alchemycat/uniserv-nft-erc721)

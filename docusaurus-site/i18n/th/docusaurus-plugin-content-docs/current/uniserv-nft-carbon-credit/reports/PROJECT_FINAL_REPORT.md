@@ -1,6 +1,6 @@
 # รายงานสรุปโครงการ: ระบบ NFT ERC721 คาร์บอนเครดิต Uniserv
 
-🔗 **เมนูนำทาง**: [📋 หน้าหลัก](../INDEX.md) | [📝 บันทึกประจำวัน](../diary/) | [🔍 การวิเคราะห์](../analysis/) | [📊 หน้าหลักรายงาน](../reports/)
+🔗 **เมนูนำทาง**: [📋 หน้าหลัก](../index.md) | [📝 บันทึกประจำวัน](../diary/HONEST_REFLECTION.md) | [🔍 การวิเคราะห์](../analysis/CHALLENGES_AND_SOLUTIONS.md) | [📊 หน้าหลักรายงาน](PROJECT_FINAL_REPORT.md)
 
 **บทความที่เกี่ยวข้อง**: [ความสำเร็จทางเทคนิค](TECHNICAL_ACHIEVEMENTS.md) | [แผนงานในอนาคต](FUTURE_ROADMAP.md) | [เรื่องราวฉบับสมบูรณ์](../blog/AI_HUMAN_COLLABORATION_STORY.md)
 

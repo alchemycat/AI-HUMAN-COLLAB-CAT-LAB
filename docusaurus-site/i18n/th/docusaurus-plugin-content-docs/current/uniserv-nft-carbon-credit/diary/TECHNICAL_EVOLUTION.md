@@ -1,6 +1,6 @@
 # วิวัฒนาการทางเทคนิค: สิ่งที่เปลี่ยนแปลงจริง ๆ
 
-🔗 **การนำทาง**: [📋 INDEX](../INDEX.md) | [📝 Diary Home](../diary/) | [🔍 การวิเคราะห์](../analysis/) | [📊 รายงาน](../reports/)
+🔗 **การนำทาง**: [📋 INDEX](../index.md) | [📝 Diary Home](HONEST_REFLECTION.md) | [🔍 การวิเคราะห์](../analysis/CHALLENGES_AND_SOLUTIONS.md) | [📊 รายงาน](../reports/PROJECT_FINAL_REPORT.md)
 
 **อ่านเพิ่มเติม**: [ความท้าทายและวิธีแก้ปัญหา](../analysis/CHALLENGES_AND_SOLUTIONS.md) | [ความสำเร็จทางเทคนิค](../reports/TECHNICAL_ACHIEVEMENTS.md) | [ไทม์ไลน์การพัฒนา](DEVELOPMENT_TIMELINE.md)
 

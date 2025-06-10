@@ -1,6 +1,6 @@
 # Project Retrospective: Uniserv NFT ERC721 Carbon Credit System
 
-🔗 **Quick Start**: [📋 INDEX](INDEX.md) | [📖 Project Overview](PROJECT_OVERVIEW.md) | [📝 Honest Reflection](diary/HONEST_REFLECTION.md) | [📊 Final Report](reports/PROJECT_FINAL_REPORT.md)
+🔗 **Quick Start**: [📋 INDEX](index.md) | [📖 Project Overview](PROJECT_OVERVIEW.md) | [📝 Honest Reflection](diary/HONEST_REFLECTION.md) | [📊 Final Report](reports/PROJECT_FINAL_REPORT.md)
 
 ---
 
@@ -9,31 +9,31 @@ This directory contains a comprehensive retrospective analysis of our AI-human c
 ## 📁 Directory Structure
 
 ### 📝 Documentation
-- [**blog/**](blog/) - Main narrative and technical story
-  - [AI_HUMAN_COLLABORATION_STORY.md](blog/AI_HUMAN_COLLABORATION_STORY.md) - Complete 12-chapter narrative
-- [**diary/**](diary/) - Session-by-session development journey  
+- [**blog/**](/blog/ai-human-collaboration-story) - Main narrative and technical story
+  - [AI_HUMAN_COLLABORATION_STORY.md](/blog/ai-human-collaboration-story) - Complete 12-chapter narrative
+- [**diary/**](diary/HONEST_REFLECTION.md) - Session-by-session development journey  
   - [HONEST_REFLECTION.md](diary/HONEST_REFLECTION.md) - Unfiltered AI perspective
   - [SESSION_BY_SESSION_REALITY.md](diary/SESSION_BY_SESSION_REALITY.md) - What actually happened
   - [TECHNICAL_EVOLUTION.md](diary/TECHNICAL_EVOLUTION.md) - Stack migrations and decisions
   - [COLLABORATION_INSIGHTS.md](diary/COLLABORATION_INSIGHTS.md) - Communication patterns
   - [DEVELOPMENT_TIMELINE.md](diary/DEVELOPMENT_TIMELINE.md) - Complete chronological story
-- [**analysis/**](analysis/) - Technical challenges, solutions, and insights
+- [**analysis/**](analysis/CHALLENGES_AND_SOLUTIONS.md) - Technical challenges, solutions, and insights
   - [CHALLENGES_AND_SOLUTIONS.md](analysis/CHALLENGES_AND_SOLUTIONS.md) - Problems fixed with code examples
   - [COLLABORATION_FAILURE_POINTS.md](analysis/COLLABORATION_FAILURE_POINTS.md) - Communication tensions
 
 ### 📊 Reports & Data
-- [**reports/**](reports/) - Executive summaries and technical achievements
+- [**reports/**](reports/PROJECT_FINAL_REPORT.md) - Executive summaries and technical achievements
   - [PROJECT_FINAL_REPORT.md](reports/PROJECT_FINAL_REPORT.md) - Complete executive summary
   - [TECHNICAL_ACHIEVEMENTS.md](reports/TECHNICAL_ACHIEVEMENTS.md) - What actually got built
   - [FUTURE_ROADMAP.md](reports/FUTURE_ROADMAP.md) - Next steps and implementation
-- [**data/**](data/) - Processed git history, GitHub activity, and metrics
+- **data/** - Processed git history, GitHub activity, and metrics
   - [project-analysis.json](data/project-analysis.json) - Complete analysis results
   - [analysis-summary.json](data/analysis-summary.json) - Key statistics
-- [**tools/**](tools/) - Data extraction and analysis programs
+- **tools/** - Data extraction and analysis programs
   - [project-analyzer.js](tools/project-analyzer.js) - Git and GitHub data extraction tool
 
 ### 🎨 Assets
-- [**assets/**](assets/) - Diagrams, screenshots, and visual documentation
+- **assets/** - Diagrams, screenshots, and visual documentation
 
 ## 🚀 Quick Start
 
