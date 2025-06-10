@@ -21,7 +21,7 @@ const sidebars: SidebarsConfig = {
       label: 'Project 001 - Uniserv NFT Carbon Credit',
       collapsed: false, // Expanded by default
       items: [
-        'uniserv-nft-carbon-credit/INDEX',
+        'uniserv-nft-carbon-credit/index',
         'uniserv-nft-carbon-credit/PROJECT_OVERVIEW',
         {
           type: 'category',

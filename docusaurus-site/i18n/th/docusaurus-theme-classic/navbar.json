@@ -1,0 +1,22 @@
+{
+  "title": {
+    "message": "ความร่วมมือ AI-มนุษย์",
+    "description": "The title in the navbar"
+  },
+  "logo.alt": {
+    "message": "โลโก้ความร่วมมือ AI-มนุษย์",
+    "description": "The alt text of navbar logo"
+  },
+  "item.label.Documentation": {
+    "message": "เอกสาร",
+    "description": "Navbar item with label Documentation"
+  },
+  "item.label.Stories": {
+    "message": "เรื่องราว",
+    "description": "Navbar item with label Stories"
+  },
+  "item.label.GitHub": {
+    "message": "GitHub",
+    "description": "Navbar item with label GitHub"
+  }
+}

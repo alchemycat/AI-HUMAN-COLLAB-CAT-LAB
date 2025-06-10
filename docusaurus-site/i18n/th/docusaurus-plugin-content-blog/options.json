@@ -1,0 +1,14 @@
+{
+  "title": {
+    "message": "AI-Human Collaboration Stories",
+    "description": "The title for the blog used in SEO"
+  },
+  "description": {
+    "message": "A collection of AI-human development partnerships",
+    "description": "The description for the blog used in SEO"
+  },
+  "sidebar.title": {
+    "message": "AI-Human Collaboration",
+    "description": "The label for the left sidebar"
+  }
+}

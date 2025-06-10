@@ -1,0 +1,22 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.projectSidebar.category.Project 001 - Uniserv NFT Carbon Credit": {
+    "message": "Project 001 - Uniserv NFT Carbon Credit",
+    "description": "The label for category Project 001 - Uniserv NFT Carbon Credit in sidebar projectSidebar"
+  },
+  "sidebar.projectSidebar.category.Personal Diary": {
+    "message": "Personal Diary",
+    "description": "The label for category Personal Diary in sidebar projectSidebar"
+  },
+  "sidebar.projectSidebar.category.Analysis": {
+    "message": "Analysis",
+    "description": "The label for category Analysis in sidebar projectSidebar"
+  },
+  "sidebar.projectSidebar.category.Reports": {
+    "message": "Reports",
+    "description": "The label for category Reports in sidebar projectSidebar"
+  }
+}

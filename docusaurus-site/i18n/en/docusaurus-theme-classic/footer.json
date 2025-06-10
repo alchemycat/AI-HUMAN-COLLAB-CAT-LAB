@@ -1,0 +1,42 @@
+{
+  "link.title.Documentation": {
+    "message": "Documentation",
+    "description": "The title of the footer links column with title=Documentation in the footer"
+  },
+  "link.title.Projects": {
+    "message": "Projects",
+    "description": "The title of the footer links column with title=Projects in the footer"
+  },
+  "link.title.Resources": {
+    "message": "Resources",
+    "description": "The title of the footer links column with title=Resources in the footer"
+  },
+  "link.item.label.Get Started": {
+    "message": "Get Started",
+    "description": "The label of footer link with label=Get Started linking to /docs/intro"
+  },
+  "link.item.label.Project 001": {
+    "message": "Project 001",
+    "description": "The label of footer link with label=Project 001 linking to /docs/uniserv-nft-carbon-credit/"
+  },
+  "link.item.label.Uniserv NFT Carbon Credit": {
+    "message": "Uniserv NFT Carbon Credit",
+    "description": "The label of footer link with label=Uniserv NFT Carbon Credit linking to /docs/uniserv-nft-carbon-credit/PROJECT_OVERVIEW"
+  },
+  "link.item.label.Original Repository": {
+    "message": "Original Repository",
+    "description": "The label of footer link with label=Original Repository linking to https://github.com/alchemycat/uniserv-nft-erc721"
+  },
+  "link.item.label.Collaboration Stories": {
+    "message": "Collaboration Stories",
+    "description": "The label of footer link with label=Collaboration Stories linking to /blog"
+  },
+  "link.item.label.GitHub Repository": {
+    "message": "GitHub Repository",
+    "description": "The label of footer link with label=GitHub Repository linking to https://github.com/alchemycat/AI-HUMAN-COLLAB-CAT-LAB"
+  },
+  "copyright": {
+    "message": "Copyright © 2025 AI-Human Collaboration. Built with Docusaurus.",
+    "description": "The footer copyright"
+  }
+}

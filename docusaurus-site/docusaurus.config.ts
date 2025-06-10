@@ -33,7 +33,19 @@ const config: Config = {
   // may want to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'en',
-    locales: ['en'],
+    locales: ['en', 'th'],
+    localeConfigs: {
+      en: {
+        label: 'English',
+        direction: 'ltr',
+        htmlLang: 'en-US',
+      },
+      th: {
+        label: 'ไทย',
+        direction: 'ltr',
+        htmlLang: 'th-TH',
+      },
+    },
   },
 
   presets: [
@@ -97,6 +109,10 @@ const config: Config = {
           position: 'left',
         },
         {
+          type: 'localeDropdown',
+          position: 'right',
+        },
+        {
           href: 'https://github.com/alchemycat/AI-HUMAN-COLLAB-CAT-LAB',
           label: 'GitHub',
           position: 'right',
@@ -115,7 +131,7 @@ const config: Config = {
             },
             {
               label: 'Project 001',
-              to: '/docs/uniserv-nft-carbon-credit/INDEX',
+              to: '/docs/uniserv-nft-carbon-credit/',
             },
           ],
         },
