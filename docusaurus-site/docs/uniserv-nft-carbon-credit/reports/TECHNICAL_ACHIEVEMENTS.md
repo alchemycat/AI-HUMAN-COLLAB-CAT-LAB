@@ -58,7 +58,7 @@ Logo Storage:     0x5264b06D055Bd673D35640B370860B5FEE1F51DB
 - **Design**: Glassmorphism UI with responsive layout
 
 ### Performance Metrics
-- **Load Time**: <3 seconds for 210 NFTs
+- **Load Time**: \<3 seconds for 210 NFTs
 - **RPC Calls**: 95% reduction through batching
 - **User Experience**: Real-time updates, error handling
 
@@ -84,7 +84,7 @@ Logo Storage:     0x5264b06D055Bd673D35640B370860B5FEE1F51DB
 ### Multicall3 Integration
 ```javascript
 // Before: 210 sequential calls (30+ seconds)
-// After: 21 batched calls (<3 seconds)
+// After: 21 batched calls (\<3 seconds)
 ```
 **Implementation**: Batch all contract reads into single call
 **Impact**: 90% load time reduction

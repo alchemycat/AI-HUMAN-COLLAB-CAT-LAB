@@ -194,7 +194,7 @@ contract CarbonCreditDAO {
 
 ### Technical Metrics
 - **Network coverage**: 5+ blockchain networks supported
-- **Performance**: <1 second load times across all interfaces
+- **Performance**: \<1 second load times across all interfaces
 - **Reliability**: 99.9% uptime for critical functions
 - **Security**: Zero security incidents
 

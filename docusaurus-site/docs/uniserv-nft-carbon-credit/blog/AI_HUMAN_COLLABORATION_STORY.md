@@ -282,7 +282,7 @@ pragma solidity ^0.8.20;
 - **Code Reuse**: Component-based frontend architecture
 
 ### User Experience Achievements
-- **Load Time**: <3 seconds for full NFT collection
+- **Load Time**: \<3 seconds for full NFT collection
 - **Transaction Speed**: Optimized for target networks
 - **Wallet Integration**: Seamless MetaMask connectivity
 - **Mobile Support**: Responsive design across devices
@@ -341,7 +341,7 @@ As we look toward the future of Web3 development, this project stands as proof t
 - **Smart Contracts**: 3 production contracts with comprehensive test coverage
 - **Frontend**: 6 HTML interfaces with modern Web3 integration  
 - **Blockchain Support**: Sichang Chain, JIBCHAIN L1, Anvil local
-- **Performance**: <3 second load times, optimized gas usage
+- **Performance**: \<3 second load times, optimized gas usage
 - **Documentation**: 37,396 words of technical documentation
 
 **Project Repository**: [uniserv-nft-erc721](https://github.com/laris-co/uniserv-nft-erc721)  
