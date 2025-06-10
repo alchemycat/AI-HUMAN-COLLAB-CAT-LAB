@@ -1,5 +1,11 @@
 # Collaboration Failure Points: What Almost Broke This
 
+🔗 **Navigation**: [📋 INDEX](../INDEX.md) | [📝 Diary](../diary/) | [🔍 Analysis Home](../analysis/) | [📊 Reports](../reports/)
+
+**Related Reads**: [Honest Reflection](../diary/HONEST_REFLECTION.md) | [Collaboration Insights](../diary/COLLABORATION_INSIGHTS.md) | [Session by Session Reality](../diary/SESSION_BY_SESSION_REALITY.md)
+
+---
+
 ## Communication Breakdowns
 
 ### Session 4: The Framework Migration Crisis

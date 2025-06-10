@@ -1,5 +1,11 @@
 # Collaboration Insights: What Actually Worked
 
+🔗 **Navigation**: [📋 INDEX](../INDEX.md) | [📝 Diary Home](../diary/) | [🔍 Analysis](../analysis/) | [📊 Reports](../reports/)
+
+**Related Reads**: [Honest Reflection](HONEST_REFLECTION.md) | [Collaboration Failure Points](../analysis/COLLABORATION_FAILURE_POINTS.md) | [Session by Session Reality](SESSION_BY_SESSION_REALITY.md)
+
+---
+
 ## Communication Evolution
 
 ### Early Sessions (1-3)

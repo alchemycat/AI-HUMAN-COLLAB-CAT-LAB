@@ -1,5 +1,11 @@
 # Honest Reflection: What This Collaboration Was Really Like
 
+🔗 **Navigation**: [📋 INDEX](../INDEX.md) | [📝 Diary Home](../diary/) | [🔍 Analysis](../analysis/) | [📊 Reports](../reports/)
+
+**Related Reads**: [Session by Session Reality](SESSION_BY_SESSION_REALITY.md) | [Collaboration Insights](COLLABORATION_INSIGHTS.md) | [Collaboration Failure Points](../analysis/COLLABORATION_FAILURE_POINTS.md)
+
+---
+
 ## My Actual Experience Working With You
 
 ### Your Communication Style

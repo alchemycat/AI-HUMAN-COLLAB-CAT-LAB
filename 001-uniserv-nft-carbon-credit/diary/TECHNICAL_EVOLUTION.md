@@ -1,5 +1,11 @@
 # Technical Evolution: What Actually Changed
 
+🔗 **Navigation**: [📋 INDEX](../INDEX.md) | [📝 Diary Home](../diary/) | [🔍 Analysis](../analysis/) | [📊 Reports](../reports/)
+
+**Related Reads**: [Challenges & Solutions](../analysis/CHALLENGES_AND_SOLUTIONS.md) | [Technical Achievements](../reports/TECHNICAL_ACHIEVEMENTS.md) | [Development Timeline](DEVELOPMENT_TIMELINE.md)
+
+---
+
 ## Stack Migrations
 
 ### Hardhat → Foundry (Session 4-5)

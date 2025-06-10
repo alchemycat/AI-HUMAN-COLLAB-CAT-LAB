@@ -1,5 +1,11 @@
 # Development Timeline: Session-by-Session Journey
 
+🔗 **Navigation**: [📋 INDEX](../INDEX.md) | [📝 Diary Home](../diary/) | [🔍 Analysis](../analysis/) | [📊 Reports](../reports/)
+
+**Related Reads**: [Session by Session Reality](SESSION_BY_SESSION_REALITY.md) | [Technical Evolution](TECHNICAL_EVOLUTION.md) | [Complete Story](../blog/AI_HUMAN_COLLABORATION_STORY.md)
+
+---
+
 *A chronological diary of our AI-human collaboration across 13+ intensive development sessions*
 
 ## Overview

@@ -1,5 +1,11 @@
 # Future Roadmap: Next Steps
 
+🔗 **Navigation**: [📋 INDEX](../INDEX.md) | [📝 Diary](../diary/) | [🔍 Analysis](../analysis/) | [📊 Reports Home](../reports/)
+
+**Related Reads**: [Project Final Report](PROJECT_FINAL_REPORT.md) | [Technical Achievements](TECHNICAL_ACHIEVEMENTS.md) | [Challenges & Solutions](../analysis/CHALLENGES_AND_SOLUTIONS.md)
+
+---
+
 ## Immediate Fixes (Next Session)
 
 ### Known Issues to Address
