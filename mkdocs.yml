@@ -13,47 +13,7 @@ edit_uri: edit/main/
 
 # Configuration
 theme:
-  name: material
-  language: en
-  palette:
-    # Palette toggle for light mode
-    - scheme: default
-      primary: blue
-      accent: cyan
-      toggle:
-        icon: material/brightness-7
-        name: Switch to dark mode
-    # Palette toggle for dark mode
-    - scheme: slate
-      primary: blue
-      accent: cyan
-      toggle:
-        icon: material/brightness-4
-        name: Switch to light mode
-  font:
-    text: Roboto
-    code: Roboto Mono
-  features:
-    - navigation.tabs
-    - navigation.tabs.sticky
-    - navigation.sections
-    - navigation.expand
-    - navigation.path
-    - navigation.indexes
-    - toc.follow
-    - toc.integrate
-    - navigation.top
-    - search.suggest
-    - search.highlight
-    - search.share
-    - header.autohide
-    - content.code.copy
-    - content.action.edit
-    - content.action.view
-  icon:
-    repo: fontawesome/brands/github
-    edit: material/pencil
-    view: material/eye
+  name: lantana
 
 # Plugins
 plugins:
@@ -124,6 +84,8 @@ nav:
     - 'Complete Story': '001-uniserv-nft-carbon-credit/blog/AI_HUMAN_COLLABORATION_STORY.md'
 
 # Extra
+extra_css:
+  - css/light-override.css
 extra:
   social:
     - icon: fontawesome/brands/github

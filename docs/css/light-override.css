@@ -1,0 +1,201 @@
+/* Force light theme for Lantana with maximum contrast */
+:root {
+    --bs-body-bg: #ffffff !important;
+    --bs-body-color: #000000 !important;
+    --bs-primary: #0040a0 !important;
+    --bs-secondary: #333333 !important;
+    --bs-light: #ffffff !important;
+    --bs-dark: #000000 !important;
+}
+
+/* Maximum contrast settings */
+* {
+    text-shadow: none !important;
+    box-shadow: none !important;
+}
+
+body {
+    background-color: #ffffff !important;
+    color: #000000 !important;
+    direction: ltr !important;
+}
+
+/* Scrollbar styling - position on left */
+html {
+    direction: rtl !important;
+}
+
+body {
+    direction: ltr !important;
+}
+
+.main-content,
+.content,
+article {
+    direction: ltr !important;
+}
+
+/* Custom scrollbar for webkit browsers */
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+.navbar {
+    background-color: #f8f9fa !important;
+    border-bottom: 1px solid #dee2e6 !important;
+}
+
+.navbar .navbar-brand,
+.navbar .nav-link {
+    color: #000000 !important;
+    font-weight: 500 !important;
+}
+
+.navbar .nav-link:hover {
+    color: #0052cc !important;
+}
+
+/* Left sidebar - maximum contrast */
+.sidebar,
+nav,
+.navigation,
+.nav-sidebar,
+.left-sidebar,
+#sidebar,
+.menu {
+    background-color: #ffffff !important;
+    border-right: 3px solid #000000 !important;
+}
+
+.sidebar .nav-link,
+nav .nav-link,
+.navigation .nav-link,
+.nav-sidebar .nav-link,
+.left-sidebar .nav-link,
+#sidebar .nav-link,
+.menu .nav-link,
+.sidebar a,
+nav a,
+.navigation a,
+.nav-sidebar a,
+.left-sidebar a,
+#sidebar a,
+.menu a {
+    color: #000000 !important;
+    font-weight: 600 !important;
+    background-color: #ffffff !important;
+    padding: 8px 16px !important;
+    border-bottom: 1px solid #e0e0e0 !important;
+}
+
+.sidebar .nav-link:hover,
+.sidebar .nav-link.active,
+nav .nav-link:hover,
+nav .nav-link.active,
+.navigation .nav-link:hover,
+.navigation .nav-link.active,
+.nav-sidebar .nav-link:hover,
+.nav-sidebar .nav-link.active,
+.left-sidebar .nav-link:hover,
+.left-sidebar .nav-link.active,
+#sidebar .nav-link:hover,
+#sidebar .nav-link.active,
+.menu .nav-link:hover,
+.menu .nav-link.active,
+.sidebar a:hover,
+.sidebar a.active,
+nav a:hover,
+nav a.active,
+.navigation a:hover,
+.navigation a.active,
+.nav-sidebar a:hover,
+.nav-sidebar a.active,
+.left-sidebar a:hover,
+.left-sidebar a.active,
+#sidebar a:hover,
+#sidebar a.active,
+.menu a:hover,
+.menu a.active {
+    color: #ffffff !important;
+    background-color: #000000 !important;
+    font-weight: 700 !important;
+}
+
+.main-content {
+    background-color: #ffffff !important;
+    color: #000000 !important;
+}
+
+.card {
+    background-color: #ffffff !important;
+    border: 1px solid #dee2e6 !important;
+}
+
+.card-header {
+    background-color: #f8f9fa !important;
+    border-bottom: 1px solid #dee2e6 !important;
+}
+
+/* Code blocks */
+pre {
+    background-color: #f8f9fa !important;
+    color: #212529 !important;
+    border: 1px solid #dee2e6 !important;
+}
+
+code {
+    background-color: #f1f3f4 !important;
+    color: #d63384 !important;
+}
+
+/* Tables */
+.table {
+    color: #212529 !important;
+}
+
+.table-striped > tbody > tr:nth-of-type(odd) > td {
+    background-color: #f8f9fa !important;
+}
+
+/* Links */
+a {
+    color: #0066CC !important;
+}
+
+a:hover {
+    color: #004499 !important;
+}
+
+/* Headers with better contrast */
+h1, h2, h3, h4, h5, h6 {
+    color: #000000 !important;
+    font-weight: 600 !important;
+}
+
+/* Search */
+.search-input {
+    background-color: #ffffff !important;
+    color: #212529 !important;
+    border: 1px solid #ced4da !important;
+}
+
+/* Footer */
+.footer {
+    background-color: #f8f9fa !important;
+    color: #6c757d !important;
+    border-top: 1px solid #dee2e6 !important;
+}

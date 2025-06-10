@@ -282,7 +282,7 @@ pragma solidity ^0.8.20;
 - **Code Reuse**: Component-based frontend architecture
 
 ### User Experience Achievements
-- **Load Time**: <3 seconds for full NFT collection
+- **Load Time**: \<3 seconds for full NFT collection
 - **Transaction Speed**: Optimized for target networks
 - **Wallet Integration**: Seamless MetaMask connectivity
 - **Mobile Support**: Responsive design across devices

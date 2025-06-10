@@ -48,7 +48,13 @@ const config: Config = {
             'https://github.com/alchemycat/AI-HUMAN-COLLAB-CAT-LAB/tree/main/docusaurus-site/',
         },
         blog: {
+          routeBasePath: '/', // Set blog as homepage
           showReadingTime: true,
+          blogSidebarTitle: 'All Posts',
+          blogSidebarCount: 'ALL',
+          postsPerPage: 10,
+          blogTitle: 'AI-Human Collaboration Stories',
+          blogDescription: 'A collection of AI-human development partnerships',
           feedOptions: {
             type: ['rss', 'atom'],
             xslt: true,
@@ -85,7 +91,7 @@ const config: Config = {
           position: 'left',
           label: 'Projects',
         },
-        {to: '/blog', label: 'Stories', position: 'left'},
+        {to: '/docs/intro', label: 'Documentation', position: 'left'},
         {
           href: 'https://github.com/alchemycat/AI-HUMAN-COLLAB-CAT-LAB',
           label: 'GitHub',

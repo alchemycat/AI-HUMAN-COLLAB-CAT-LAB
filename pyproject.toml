@@ -5,6 +5,7 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.10"
 dependencies = [
+    "lantana>=2.13.0",
     "mkdocs>=1.6.1",
     "mkdocs-awesome-pages-plugin>=2.10.1",
     "mkdocs-material>=9.6.14",
