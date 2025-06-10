@@ -1,0 +1,37 @@
+{
+  "metadata": {
+    "extracted_at": "2025-06-10T05:54:40.660Z",
+    "project_root": "/home/floodboy/uniserv-nft-erc721",
+    "analyzer_version": "1.0.0"
+  },
+  "statistics": {
+    "overview": {
+      "total_commits": 181,
+      "total_ai_sessions": 41,
+      "total_files_tracked": 4,
+      "timeline_events": 188
+    },
+    "repository": {
+      "first_commit": "2025-05-30 08:14:04 +0700",
+      "last_commit": "2025-06-09 09:14:43 +0700",
+      "total_contributors": 2
+    },
+    "development": {
+      "most_changed_file": {
+        "file": "nimman-pass-v1/simple-manager-react.html",
+        "changes": 966
+      },
+      "most_active_phase": [
+        "Features",
+        116
+      ],
+      "session_documentation": 37396
+    }
+  },
+  "quick_facts": {
+    "total_commits": 181,
+    "ai_sessions": 41,
+    "timeline_events": 188,
+    "contributors": 2
+  }
+}
