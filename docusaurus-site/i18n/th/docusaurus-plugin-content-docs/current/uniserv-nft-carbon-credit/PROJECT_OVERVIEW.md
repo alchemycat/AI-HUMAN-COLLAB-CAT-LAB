@@ -90,9 +90,9 @@
 
 ## ลิงก์
 
-- **คลังข้อมูลต้นฉบับ**: [uniserv-nft-erc721](https://github.com/catlabs/uniserv-nft-erc721)
-- **GitHub Issue**: [#126 - Project Retrospective](https://github.com/catlabs/uniserv-nft-erc721/issues/126)
-- **Pull Request**: [#127 - Retrospective Documentation](https://github.com/catlabs/uniserv-nft-erc721/pull/127)
+- **คลังข้อมูลต้นฉบับ**: [uniserv-nft-erc721](https://github.com/alchemycat/uniserv-nft-erc721)
+- **GitHub Issue**: [#126 - Project Retrospective](https://github.com/alchemycat/uniserv-nft-erc721/issues/126)
+- **Pull Request**: [#127 - Retrospective Documentation](https://github.com/alchemycat/uniserv-nft-erc721/pull/127)
 
 ---
 

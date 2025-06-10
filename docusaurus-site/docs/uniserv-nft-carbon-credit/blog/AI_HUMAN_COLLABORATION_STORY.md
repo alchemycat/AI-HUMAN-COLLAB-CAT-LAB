@@ -344,6 +344,6 @@ As we look toward the future of Web3 development, this project stands as proof t
 - **Performance**: \<3 second load times, optimized gas usage
 - **Documentation**: 37,396 words of technical documentation
 
-**Project Repository**: [uniserv-nft-erc721](https://github.com/catlabs/uniserv-nft-erc721)  
-**GitHub Issue**: [#126 - Project Retrospective](https://github.com/catlabs/uniserv-nft-erc721/issues/126)  
+**Project Repository**: [uniserv-nft-erc721](https://github.com/alchemycat/uniserv-nft-erc721)  
+**GitHub Issue**: [#126 - Project Retrospective](https://github.com/alchemycat/uniserv-nft-erc721/issues/126)  
 **Development Period**: May 30, 2025 - June 10, 2025
