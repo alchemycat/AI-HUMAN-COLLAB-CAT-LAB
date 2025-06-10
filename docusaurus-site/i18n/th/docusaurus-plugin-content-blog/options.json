@@ -1,14 +1,14 @@
 {
   "title": {
-    "message": "AI-Human Collaboration Stories",
+    "message": "เรื่องราวความร่วมมือ AI-มนุษย์",
     "description": "The title for the blog used in SEO"
   },
   "description": {
-    "message": "A collection of AI-human development partnerships",
+    "message": "คอลเลกชันของความร่วมมือในการพัฒนาระหว่าง AI-มนุษย์",
     "description": "The description for the blog used in SEO"
   },
   "sidebar.title": {
-    "message": "AI-Human Collaboration",
+    "message": "ความร่วมมือ AI-มนุษย์",
     "description": "The label for the left sidebar"
   }
 }

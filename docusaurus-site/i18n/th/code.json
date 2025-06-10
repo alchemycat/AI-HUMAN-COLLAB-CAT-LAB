@@ -1,10 +1,10 @@
 {
   "theme.ErrorPageContent.title": {
-    "message": "This page crashed.",
+    "message": "หน้านี้เกิดข้อผิดพลาด",
     "description": "The title of the fallback page when the page crashed"
   },
   "theme.BackToTopButton.buttonAriaLabel": {
-    "message": "Scroll back to top",
+    "message": "เลื่อนกลับไปด้านบน",
     "description": "The ARIA label for the back to top button"
   },
   "theme.blog.archive.title": {
@@ -72,11 +72,11 @@
     "description": "The ARIA label for the docs pagination"
   },
   "theme.docs.paginator.previous": {
-    "message": "Previous",
+    "message": "ก่อนหน้า",
     "description": "The label used to navigate to the previous doc"
   },
   "theme.docs.paginator.next": {
-    "message": "Next",
+    "message": "ถัดไป",
     "description": "The label used to navigate to the next doc"
   },
   "theme.docs.tagDocListPageTitle.nDocsTagged": {
@@ -107,7 +107,7 @@
     "description": "The label used for the latest version suggestion link label"
   },
   "theme.common.editThisPage": {
-    "message": "Edit this page",
+    "message": "แก้ไขหน้านี้",
     "description": "The link label to edit the current page"
   },
   "theme.common.headingLinkTitle": {
@@ -135,7 +135,7 @@
     "description": "The title of the 404 page"
   },
   "theme.tags.tagsListLabel": {
-    "message": "Tags:",
+    "message": "แท็ก:",
     "description": "The label alongside a tag list"
   },
   "theme.admonition.caution": {
@@ -163,7 +163,7 @@
     "description": "The default label used for the Warning admonition (:::warning)"
   },
   "theme.AnnouncementBar.closeButtonAriaLabel": {
-    "message": "Close",
+    "message": "ปิด",
     "description": "The ARIA label for close button of announcement bar"
   },
   "theme.blog.sidebar.navAriaLabel": {
@@ -195,11 +195,11 @@
     "description": "The 2nd paragraph of the 404 page"
   },
   "theme.TOCCollapsible.toggleButtonLabel": {
-    "message": "On this page",
+    "message": "ในหน้านี้",
     "description": "The label used by the button on the collapsible TOC component"
   },
   "theme.blog.post.readMore": {
-    "message": "Read more",
+    "message": "อ่านเพิ่มเติม",
     "description": "The label used in blog post item excerpts to link to full blog posts"
   },
   "theme.blog.post.readMoreLabel": {
@@ -211,11 +211,11 @@
     "description": "Pluralized label for \"{readingTime} min read\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
   },
   "theme.CodeBlock.copy": {
-    "message": "Copy",
+    "message": "คัดลอก",
     "description": "The copy button label on code blocks"
   },
   "theme.CodeBlock.copied": {
-    "message": "Copied",
+    "message": "คัดลอกแล้ว",
     "description": "The copied button label on code blocks"
   },
   "theme.CodeBlock.copyButtonAriaLabel": {
@@ -227,7 +227,7 @@
     "description": "The title attribute for toggle word wrapping button of code block lines"
   },
   "theme.docs.breadcrumbs.home": {
-    "message": "Home page",
+    "message": "หน้าแรก",
     "description": "The ARIA label for the home page in the breadcrumbs"
   },
   "theme.docs.sidebar.collapseButtonTitle": {
@@ -311,7 +311,7 @@
     "description": "The draft content banner message"
   },
   "theme.ErrorPageContent.tryAgain": {
-    "message": "Try again",
+    "message": "ลองอีกครั้ง",
     "description": "The label of the button to try again rendering when the React error boundary captures an error"
   },
   "theme.common.skipToMainContent": {
@@ -319,7 +319,7 @@
     "description": "The skip to content label used for accessibility, allowing to rapidly navigate to main content with keyboard tab/enter navigation"
   },
   "theme.tags.tagsPageTitle": {
-    "message": "Tags",
+    "message": "แท็ก",
     "description": "The title of the tag list page"
   }
 }

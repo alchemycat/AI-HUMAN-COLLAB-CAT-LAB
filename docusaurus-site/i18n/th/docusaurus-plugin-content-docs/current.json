@@ -4,19 +4,19 @@
     "description": "The label for version current"
   },
   "sidebar.projectSidebar.category.Project 001 - Uniserv NFT Carbon Credit": {
-    "message": "Project 001 - Uniserv NFT Carbon Credit",
+    "message": "โครงการ 001 - ระบบคาร์บอนเครดิต NFT ยูนิเซิร์ฟ",
     "description": "The label for category Project 001 - Uniserv NFT Carbon Credit in sidebar projectSidebar"
   },
   "sidebar.projectSidebar.category.Personal Diary": {
-    "message": "Personal Diary",
+    "message": "บันทึกส่วนตัว",
     "description": "The label for category Personal Diary in sidebar projectSidebar"
   },
   "sidebar.projectSidebar.category.Analysis": {
-    "message": "Analysis",
+    "message": "การวิเคราะห์",
     "description": "The label for category Analysis in sidebar projectSidebar"
   },
   "sidebar.projectSidebar.category.Reports": {
-    "message": "Reports",
+    "message": "รายงาน",
     "description": "The label for category Reports in sidebar projectSidebar"
   }
 }
