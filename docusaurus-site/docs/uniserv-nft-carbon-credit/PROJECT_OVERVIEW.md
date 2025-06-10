@@ -90,9 +90,9 @@ This project demonstrates the potential of AI-human collaboration in software de
 
 ## Links
 
-- **Original Repository**: [uniserv-nft-erc721](https://github.com/laris-co/uniserv-nft-erc721)
-- **GitHub Issue**: [#126 - Project Retrospective](https://github.com/laris-co/uniserv-nft-erc721/issues/126)
-- **Pull Request**: [#127 - Retrospective Documentation](https://github.com/laris-co/uniserv-nft-erc721/pull/127)
+- **Original Repository**: [uniserv-nft-erc721](https://github.com/catlabs/uniserv-nft-erc721)
+- **GitHub Issue**: [#126 - Project Retrospective](https://github.com/catlabs/uniserv-nft-erc721/issues/126)
+- **Pull Request**: [#127 - Retrospective Documentation](https://github.com/catlabs/uniserv-nft-erc721/pull/127)
 
 ---
 

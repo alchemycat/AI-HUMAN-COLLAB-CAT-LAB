@@ -453,9 +453,9 @@ This project stands as proof that when artificial intelligence and human creativ
 
 ---
 
-**Project Repository**: [uniserv-nft-erc721](https://github.com/laris-co/uniserv-nft-erc721)  
+**Project Repository**: [uniserv-nft-erc721](https://github.com/catlabs/uniserv-nft-erc721)  
 **Documentation Archive**: `project-retrospective/` directory  
-**GitHub Issue**: [#126 - Project Retrospective](https://github.com/laris-co/uniserv-nft-erc721/issues/126)  
+**GitHub Issue**: [#126 - Project Retrospective](https://github.com/catlabs/uniserv-nft-erc721/issues/126)  
 
 **Final Statistics**:
 - **Development Duration**: 11 days

@@ -94,5 +94,5 @@ node generators/report-generator.js
 ---
 
 **สร้างเมื่อ**: มกราคม 2568
-**อิชชู**: [#126](https://github.com/laris-co/uniserv-nft-erc721/issues/126)
+**อิชชู**: [#126](https://github.com/catlabs/uniserv-nft-erc721/issues/126)
 **แบรนช์**: `feature/project-retrospective-126`

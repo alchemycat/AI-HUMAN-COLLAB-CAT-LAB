@@ -94,5 +94,5 @@ This retrospective captures unique insights into AI-human collaboration patterns
 ---
 
 **Generated**: January 2025  
-**Issue**: [#126](https://github.com/laris-co/uniserv-nft-erc721/issues/126)  
+**Issue**: [#126](https://github.com/catlabs/uniserv-nft-erc721/issues/126)  
 **Branch**: `feature/project-retrospective-126`
