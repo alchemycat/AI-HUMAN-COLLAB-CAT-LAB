@@ -1,6 +1,6 @@
 # โครงการ 001: ระบบคาร์บอนเครดิต NFT ยูนิเซิร์ฟ
 
-🔗 **การนำทาง**: [📋 ดัชนี](index.md) | [📝 บันทึก](diary/HONEST_REFLECTION.md) | [🔍 การวิเคราะห์](analysis/CHALLENGES_AND_SOLUTIONS.md) | [📊 รายงาน](reports/PROJECT_FINAL_REPORT.md) | [📖 บล็อก](/th/th/blog/ai-human-collaboration-story)
+🔗 **การนำทาง**: [📋 ดัชนี](index.md) | [📝 บันทึก](diary/HONEST_REFLECTION.md) | [🔍 การวิเคราะห์](analysis/CHALLENGES_AND_SOLUTIONS.md) | [📊 รายงาน](reports/PROJECT_FINAL_REPORT.md) | [📖 บล็อก](/blog/ai-human-collaboration-story)
 
 ---
 
