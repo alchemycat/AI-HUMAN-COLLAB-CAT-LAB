@@ -159,7 +159,7 @@ Achieved identical contract addresses across all networks through:
 - **Bug Resolution Time**: Immediate within-session fixes
 
 ### System Performance
-- **NFT Collection Load Time**: <3 seconds for all 210 tokens
+- **NFT Collection Load Time**: \<3 seconds for all 210 tokens
 - **RPC Call Optimization**: 95% reduction through Multicall3
 - **Gas Efficiency**: Sub-50k gas per NFT mint operation
 - **Cross-Chain Deployment**: 100% address consistency
@@ -180,7 +180,7 @@ Achieved identical contract addresses across all networks through:
 ```javascript
 // Revolutionary performance improvement
 // Before: 210 sequential calls (30+ seconds)
-// After: 21 batched calls (<3 seconds)
+// After: 21 batched calls (\<3 seconds)
 const results = await multicall3.read.aggregate([calls]);
 ```
 

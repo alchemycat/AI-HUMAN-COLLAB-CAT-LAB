@@ -204,7 +204,7 @@ for (let i = 0; i < 210; i++) {
     const tokenURI = await contract.read.tokenURI([i]);
 }
 
-// After: Batched calls (<3 seconds)
+// After: Batched calls (\<3 seconds)
 const calls = tokens.map(id => [
     contract.address, 
     encodeFunctionData({ functionName: 'ownerOf', args: [id] })
