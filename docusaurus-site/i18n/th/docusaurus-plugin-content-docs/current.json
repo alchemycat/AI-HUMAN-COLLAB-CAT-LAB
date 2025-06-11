@@ -18,5 +18,33 @@
   "sidebar.projectSidebar.category.Reports": {
     "message": "รายงาน",
     "description": "The label for category Reports in sidebar projectSidebar"
+  },
+  "sidebar.projectSidebar.category.Project 002 - LIFF Carbon Offset App": {
+    "message": "โครงการ 002 - แอป LIFF Carbon Offset",
+    "description": "The label for category Project 002 - LIFF Carbon Offset App in sidebar projectSidebar"
+  },
+  "sidebar.projectSidebar.category.Project 001 - Uniserv NFT Carbon Credit.Personal Diary": {
+    "message": "บันทึกส่วนตัว",
+    "description": "The label for category Personal Diary in sidebar projectSidebar under Project 001"
+  },
+  "sidebar.projectSidebar.category.Project 001 - Uniserv NFT Carbon Credit.Analysis": {
+    "message": "การวิเคราะห์",
+    "description": "The label for category Analysis in sidebar projectSidebar under Project 001"
+  },
+  "sidebar.projectSidebar.category.Project 001 - Uniserv NFT Carbon Credit.Reports": {
+    "message": "รายงาน",
+    "description": "The label for category Reports in sidebar projectSidebar under Project 001"
+  },
+  "sidebar.projectSidebar.category.Project 002 - LIFF Carbon Offset App.AI Analysis Diary": {
+    "message": "บันทึกการวิเคราะห์ของ AI",
+    "description": "The label for category AI Analysis Diary in sidebar projectSidebar under Project 002"
+  },
+  "sidebar.projectSidebar.category.Project 002 - LIFF Carbon Offset App.Technical Analysis": {
+    "message": "การวิเคราะห์ทางเทคนิค",
+    "description": "The label for category Technical Analysis in sidebar projectSidebar under Project 002"
+  },
+  "sidebar.projectSidebar.category.Project 002 - LIFF Carbon Offset App.Executive Reports": {
+    "message": "รายงานระดับผู้บริหาร",
+    "description": "The label for category Executive Reports in sidebar projectSidebar under Project 002"
   }
 }
