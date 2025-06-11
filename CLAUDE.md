@@ -219,3 +219,21 @@ This template system is designed to be freely used and adapted for documenting A
 ---
 
 *This CLAUDE.md file serves as both documentation and template guide for creating comprehensive AI-human collaboration retrospectives. It transforms scattered project insights into professional, searchable documentation that preserves the complete story of artificial intelligence and human creativity working together.*
+
+## Important Repository Policies
+
+### No Git Submodules Policy
+
+**This repository must NOT contain any git submodules.** All directories should be regular directories tracked by git.
+
+- **NEVER** use `git submodule add` command
+- **NEVER** create directories with their own `.git` folders inside this repository
+- If you encounter a directory with its own `.git` folder:
+  1. Remove the `.git` folder: `rm -rf directory/.git`
+  2. Add it as a regular directory: `git add directory/`
+- If deployment fails due to submodule errors:
+  1. Remove the submodule cache: `git rm --cached directory-name`
+  2. Remove any `.git` folder inside the directory
+  3. Re-add as regular directory
+
+This policy ensures clean deployments and avoids the "fatal: No url found for submodule path" error during builds.
