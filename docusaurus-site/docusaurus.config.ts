@@ -109,6 +109,10 @@ const config: Config = {
               label: 'Project 001',
               to: '/docs/uniserv-nft-carbon-credit/',
             },
+            {
+              label: 'Project 002',
+              to: '/docs/liff-carbon-offset-app/',
+            },
           ],
         },
         {
@@ -119,18 +123,18 @@ const config: Config = {
               to: '/docs/uniserv-nft-carbon-credit/PROJECT_OVERVIEW',
             },
             {
-              label: 'Original Repository',
-              href: 'https://github.com/alchemycat/uniserv-nft-erc721',
+              label: 'LIFF Carbon Offset App',
+              to: '/docs/liff-carbon-offset-app/',
+            },
+            {
+              label: 'Original Repositories',
+              href: 'https://github.com/laris-co',
             },
           ],
         },
         {
           title: 'Resources',
           items: [
-            {
-              label: 'Collaboration Stories',
-              to: '/blog',
-            },
             {
               label: 'GitHub Repository',
               href: 'https://github.com/alchemycat/AI-HUMAN-COLLAB-CAT-LAB',

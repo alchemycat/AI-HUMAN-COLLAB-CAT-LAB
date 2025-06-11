@@ -19,17 +19,21 @@
     "message": "โครงการ 001",
     "description": "The label of footer link with label=Project 001 linking to /docs/uniserv-nft-carbon-credit/"
   },
+  "link.item.label.Project 002": {
+    "message": "โครงการ 002",
+    "description": "The label of footer link with label=Project 002 linking to /docs/liff-carbon-offset-app/"
+  },
   "link.item.label.Uniserv NFT Carbon Credit": {
     "message": "ระบบคาร์บอนเครดิต NFT ยูนิเซิร์ฟ",
     "description": "The label of footer link with label=Uniserv NFT Carbon Credit linking to /docs/uniserv-nft-carbon-credit/PROJECT_OVERVIEW"
   },
-  "link.item.label.Original Repository": {
-    "message": "คลังข้อมูลต้นฉบับ",
-    "description": "The label of footer link with label=Original Repository linking to https://github.com/alchemycat/uniserv-nft-erc721"
+  "link.item.label.LIFF Carbon Offset App": {
+    "message": "แอป LIFF Carbon Offset",
+    "description": "The label of footer link with label=LIFF Carbon Offset App linking to /docs/liff-carbon-offset-app/"
   },
-  "link.item.label.Collaboration Stories": {
-    "message": "เรื่องราวความร่วมมือ",
-    "description": "The label of footer link with label=Collaboration Stories linking to /blog"
+  "link.item.label.Original Repositories": {
+    "message": "คลังข้อมูลต้นฉบับ",
+    "description": "The label of footer link with label=Original Repositories linking to https://github.com/laris-co"
   },
   "link.item.label.GitHub Repository": {
     "message": "คลังข้อมูล GitHub",
