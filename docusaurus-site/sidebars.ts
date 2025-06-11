@@ -19,14 +19,14 @@ const sidebars: SidebarsConfig = {
     {
       type: 'category',
       label: 'Project 001 - Uniserv NFT Carbon Credit',
-      collapsed: false, // Expanded by default
+      collapsed: true, // Collapsed by default
       items: [
         'uniserv-nft-carbon-credit/index',
         'uniserv-nft-carbon-credit/PROJECT_OVERVIEW',
         {
           type: 'category',
           label: 'Personal Diary',
-          collapsed: false, // Expanded by default
+          collapsed: true, // Collapsed by default
           items: [
             'uniserv-nft-carbon-credit/diary/HONEST_REFLECTION',
             'uniserv-nft-carbon-credit/diary/SESSION_BY_SESSION_REALITY',
@@ -38,7 +38,7 @@ const sidebars: SidebarsConfig = {
         {
           type: 'category',
           label: 'Analysis',
-          collapsed: false, // Expanded by default
+          collapsed: true, // Collapsed by default
           items: [
             'uniserv-nft-carbon-credit/analysis/CHALLENGES_AND_SOLUTIONS',
             'uniserv-nft-carbon-credit/analysis/COLLABORATION_FAILURE_POINTS',
@@ -47,7 +47,7 @@ const sidebars: SidebarsConfig = {
         {
           type: 'category',
           label: 'Reports',
-          collapsed: false, // Expanded by default
+          collapsed: true, // Collapsed by default
           items: [
             'uniserv-nft-carbon-credit/reports/PROJECT_FINAL_REPORT',
             'uniserv-nft-carbon-credit/reports/TECHNICAL_ACHIEVEMENTS',
@@ -60,13 +60,13 @@ const sidebars: SidebarsConfig = {
     {
       type: 'category',
       label: 'Project 002 - LIFF Carbon Offset App',
-      collapsed: false, // Expanded by default
+      collapsed: true, // Collapsed by default
       items: [
         'liff-carbon-offset-app/INDEX',
         {
           type: 'category',
           label: 'AI Analysis Diary',
-          collapsed: false, // Expanded by default
+          collapsed: true, // Collapsed by default
           items: [
             'liff-carbon-offset-app/diary/HONEST_REFLECTION',
             'liff-carbon-offset-app/diary/ANALYSIS_SESSION_REALITY',
@@ -77,7 +77,7 @@ const sidebars: SidebarsConfig = {
         {
           type: 'category',
           label: 'Technical Analysis',
-          collapsed: false, // Expanded by default
+          collapsed: true, // Collapsed by default
           items: [
             'liff-carbon-offset-app/analysis/CODEBASE_ARCHITECTURE',
             'liff-carbon-offset-app/analysis/GIT_HISTORY_ANALYSIS',
@@ -88,7 +88,7 @@ const sidebars: SidebarsConfig = {
         {
           type: 'category',
           label: 'Executive Reports',
-          collapsed: false, // Expanded by default
+          collapsed: true, // Collapsed by default
           items: [
             'liff-carbon-offset-app/reports/REPOSITORY_FINAL_REPORT',
             'liff-carbon-offset-app/reports/TECHNICAL_ASSESSMENT',
