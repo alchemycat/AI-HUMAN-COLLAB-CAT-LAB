@@ -6,13 +6,13 @@
 
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #6c5ce7;
-  --ifm-color-primary-dark: #5f4ee4;
-  --ifm-color-primary-darker: #574ae2;
-  --ifm-color-primary-darkest: #4834dd;
-  --ifm-color-primary-light: #796aea;
-  --ifm-color-primary-lighter: #836eec;
-  --ifm-color-primary-lightest: #9a80f0;
+  --ifm-color-primary: #5b4bca;
+  --ifm-color-primary-dark: #4f3fc5;
+  --ifm-color-primary-darker: #493ac0;
+  --ifm-color-primary-darkest: #3b2ca8;
+  --ifm-color-primary-light: #6757cf;
+  --ifm-color-primary-lighter: #6d5dd2;
+  --ifm-color-primary-lightest: #8070db;
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
 }
@@ -34,8 +34,20 @@
 
 /* Global enhancements */
 .navbar {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  box-shadow: 0 2px 20px rgba(0,0,0,0.1);
+  background: linear-gradient(135deg, #5b4bca 0%, #6b469f 100%);
+  box-shadow: 0 2px 20px rgba(0,0,0,0.15);
+}
+
+/* Fix navbar link contrast */
+.navbar__link {
+  color: white !important;
+  font-weight: 500;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
+}
+
+.navbar__link:hover {
+  color: rgba(255,255,255,0.95) !important;
+  text-shadow: 2px 2px 6px rgba(0,0,0,0.9);
 }
 
 .footer {
@@ -184,18 +196,21 @@
   margin-right: 8px;
   margin-bottom: 5px;
   transition: transform 0.2s ease;
-  text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
-  border: 1px solid rgba(255,255,255,0.1);
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.8);
+  border: 2px solid rgba(255,255,255,0.3);
+  font-weight: 600;
 }
 
 .blog-tags .badge:hover {
   transform: scale(1.1);
   background: var(--ifm-color-primary-dark);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.4);
 }
 
 .blog-tags .badge a {
   color: white !important;
   text-decoration: none;
+  font-weight: 600;
 }
 
 .blog-tags .badge a:hover {
@@ -250,7 +265,7 @@
   background: var(--ifm-color-primary) !important;
   color: white !important;
   font-weight: 700;
-  text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
+  text-shadow: 2px 2px 6px rgba(0,0,0,0.9);
 }
 
 /* Fix for collapsed/expanded menu items */
@@ -294,7 +309,7 @@
   background: var(--ifm-color-primary) !important;
   color: white !important;
   font-weight: 700;
-  text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
+  text-shadow: 2px 2px 6px rgba(0,0,0,0.9);
 }
 
 /* Navigation link text contrast fixes */
@@ -374,12 +389,12 @@ tr:nth-child(even) {
   padding: 6px 15px;
   border-radius: 20px;
   font-weight: 700;
-  text-shadow: 1px 1px 2px rgba(0,0,0,0.4);
+  text-shadow: 2px 2px 6px rgba(0,0,0,0.9);
 }
 
 .breadcrumbs__item:last-child span {
   color: white !important;
-  text-shadow: 1px 1px 2px rgba(0,0,0,0.4);
+  text-shadow: 2px 2px 6px rgba(0,0,0,0.9);
 }
 
 /* Page title improvements */
@@ -490,20 +505,124 @@ tr:nth-child(even) {
   background: var(--ifm-color-primary) !important;
   color: white !important;
   font-weight: 700;
-  text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
-  border-left: 4px solid rgba(255,255,255,0.3);
+  text-shadow: 2px 2px 6px rgba(0,0,0,0.9);
+  border-left: 4px solid rgba(255,255,255,0.5);
 }
 
 /* Ensure text is always white on purple background */
 .menu__link--active * {
   color: white !important;
+  text-shadow: 2px 2px 6px rgba(0,0,0,0.9);
 }
 
 /* Fix for nested menu items */
 .menu__list .menu__list .menu__link--active {
   background: var(--ifm-color-primary-dark) !important;
   color: white !important;
-  text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+  text-shadow: 2px 2px 6px rgba(0,0,0,0.9);
+}
+
+/* Specific fixes for the problematic elements in screenshot */
+.theme-doc-sidebar-item-category .menu__list-item-collapsible .menu__link {
+  color: var(--ifm-menu-color) !important;
+}
+
+.theme-doc-sidebar-item-category .menu__list-item-collapsible .menu__link--active {
+  background: var(--ifm-color-primary) !important;
+  color: white !important;
+  font-weight: 700;
+  text-shadow: 2px 2px 6px rgba(0,0,0,0.9);
+}
+
+/* Fix for breadcrumb and header contrast */
+.theme-doc-breadcrumbs .breadcrumbs__item:last-child {
+  background: var(--ifm-color-primary) !important;
+  color: white !important;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.8);
+  font-weight: 700;
+  padding: 6px 15px;
+  border-radius: 20px;
+}
+
+.theme-doc-breadcrumbs .breadcrumbs__item:last-child span {
+  color: white !important;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.8);
+}
+
+/* Ultimate contrast fixes for all problematic elements */
+[data-theme='light'] .menu__link--active,
+[data-theme='dark'] .menu__link--active {
+  background: var(--ifm-color-primary) !important;
+  color: white !important;
+  font-weight: 700 !important;
+  text-shadow: 2px 2px 6px rgba(0,0,0,0.9) !important;
+}
+
+/* Fix for all child elements in active menu items */
+.menu__link--active span,
+.menu__link--active div,
+.menu__link--active strong,
+.menu__link--active em {
+  color: white !important;
+  text-shadow: 2px 2px 6px rgba(0,0,0,0.9) !important;
+}
+
+/* Force white text on all purple backgrounds */
+.theme-doc-sidebar-item-link-level-1 .menu__link--active,
+.theme-doc-sidebar-item-link-level-2 .menu__link--active,
+.theme-doc-sidebar-item-link-level-3 .menu__link--active,
+.theme-doc-sidebar-item-category-level-1 .menu__link--active,
+.theme-doc-sidebar-item-category-level-2 .menu__link--active {
+  background: var(--ifm-color-primary) !important;
+  color: white !important;
+  text-shadow: 2px 2px 6px rgba(0,0,0,0.9) !important;
+  font-weight: 700 !important;
+}
+
+/* Navbar Documentation and Stories links */
+.navbar__item .navbar__link {
+  color: white !important;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.8) !important;
+  font-weight: 500;
+}
+
+.navbar__item .navbar__link:hover {
+  color: rgba(255,255,255,0.95) !important;
+  text-shadow: 2px 2px 6px rgba(0,0,0,0.9) !important;
+}
+
+/* Special purple button contrast fix */
+.menu__link--active,
+.breadcrumbs__item:last-child,
+button[class*="purple"],
+a[class*="purple"] {
+  position: relative;
+  z-index: 1;
+}
+
+.menu__link--active::before,
+.breadcrumbs__item:last-child::before {
+  content: '';
+  position: absolute;
+  inset: -1px;
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: inherit;
+  z-index: -1;
+}
+
+/* Force maximum contrast on purple backgrounds */
+.menu__link--active,
+.menu__link--active *,
+.breadcrumbs__item:last-child,
+.breadcrumbs__item:last-child * {
+  color: white !important;
+  font-weight: 700 !important;
+  text-shadow: 
+    -1px -1px 0 #000,  
+     1px -1px 0 #000,
+    -1px  1px 0 #000,
+     1px  1px 0 #000,
+     2px  2px 8px rgba(0,0,0,0.9) !important;
 }
 
 /* Mobile optimizations */
