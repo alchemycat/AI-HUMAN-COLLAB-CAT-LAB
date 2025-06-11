@@ -629,7 +629,6 @@ a[class*="purple"] {
   content: '';
   position: absolute;
   inset: -1px;
-  background: rgba(0, 0, 0, 0.2);
   border-radius: inherit;
   z-index: -1;
 }
@@ -638,15 +637,15 @@ a[class*="purple"] {
 .menu__link--active,
 .menu__link--active *,
 .menu__list-item > .menu__link--active,
-.theme-doc-sidebar-item-link a.menu__link--active {
+.theme-doc-sidebar-item-link a.menu__link--active,
+.breadcrumbs__link--active,
+.breadcrumbs__item--active .breadcrumbs__link {
   color: white !important;
   font-weight: 700 !important;
   text-shadow: 
-    0 0 2px #000,
-    0 0 4px #000,
+    0 0 3px rgba(0,0,0,1),
     1px 1px 2px rgba(0,0,0,0.9),
     2px 2px 4px rgba(0,0,0,0.8) !important;
-  -webkit-text-stroke: 0.5px rgba(0,0,0,0.5);
 }
 
 /* Light theme specific fixes */
@@ -655,6 +654,31 @@ a[class*="purple"] {
   --ifm-menu-color-active: #ffffff;
   --ifm-color-emphasis-200: #f0f2f5;
   --ifm-color-emphasis-300: #e1e5ea;
+}
+
+/* Fix purple elements in light theme to ensure white text */
+[data-theme='light'] .menu__link--active {
+  background: #5b4bca !important;
+  color: white !important;
+  font-weight: 700 !important;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.7) !important;
+}
+
+[data-theme='light'] .breadcrumbs__item--active,
+[data-theme='light'] .breadcrumbs__item:last-child {
+  background: #5b4bca !important;
+  color: white !important;
+  padding: 6px 15px;
+  border-radius: 20px;
+  font-weight: 700;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.7) !important;
+}
+
+[data-theme='light'] .breadcrumbs__item--active span,
+[data-theme='light'] .breadcrumbs__item:last-child span,
+[data-theme='light'] .breadcrumbs__item--active .breadcrumbs__link,
+[data-theme='light'] .breadcrumbs__item:last-child .breadcrumbs__link {
+  color: white !important;
 }
 
 [data-theme='light'] .menu__link:not(.menu__link--active) {
@@ -711,17 +735,17 @@ a[class*="purple"] {
   font-weight: 500;
 }
 
-[data-theme='light'] .breadcrumbs__item:not(:last-child) {
+/* [data-theme='light'] .breadcrumbs__item:not(:last-child) {
   color: #374151 !important;
-}
+} */
 
 /* Light theme purple button fix */
-[data-theme='light'] .theme-doc-sidebar-item-link-level-1 > a,
+/* [data-theme='light'] .theme-doc-sidebar-item-link-level-1 > a,
 [data-theme='light'] .theme-doc-sidebar-item-link-level-2 > a,
 [data-theme='light'] .theme-doc-sidebar-item-link-level-3 > a {
   color: #374151 !important;
   font-weight: 500;
-}
+} */
 
 [data-theme='light'] .theme-doc-sidebar-item-link-level-1 > a:hover,
 [data-theme='light'] .theme-doc-sidebar-item-link-level-2 > a:hover,
