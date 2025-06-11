@@ -756,6 +756,98 @@ a[class*="purple"] {
 
 /* Just keep the light theme without the pseudo-element */
 
+/* Homepage and main content contrast fixes */
+[data-theme='light'] main {
+  color: #1f2937 !important;
+}
+
+[data-theme='light'] main p,
+[data-theme='light'] main li,
+[data-theme='light'] main span:not(.badge) {
+  color: #374151 !important;
+}
+
+[data-theme='light'] main h1,
+[data-theme='light'] main h2,
+[data-theme='light'] main h3,
+[data-theme='light'] main h4,
+[data-theme='light'] main h5,
+[data-theme='light'] main h6 {
+  color: #111827 !important;
+}
+
+/* Homepage specific fixes */
+[data-theme='light'] .hero--primary {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+[data-theme='light'] .hero--primary .hero__title {
+  color: white !important;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+}
+
+[data-theme='light'] .hero--primary .hero__subtitle {
+  color: rgba(255,255,255,0.95) !important;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
+}
+
+/* Fix homepage content sections */
+[data-theme='light'] .container p,
+[data-theme='light'] .container li {
+  color: #374151 !important;
+  line-height: 1.6;
+}
+
+[data-theme='light'] .container h1,
+[data-theme='light'] .container h2,
+[data-theme='light'] .container h3 {
+  color: #111827 !important;
+}
+
+/* Module cards on homepage */
+[data-theme='light'] .feature,
+[data-theme='light'] .card {
+  color: #374151 !important;
+}
+
+[data-theme='light'] .feature h3,
+[data-theme='light'] .card h3 {
+  color: #111827 !important;
+}
+
+/* Footer contrast */
+[data-theme='light'] footer {
+  background: linear-gradient(135deg, #2d3748 0%, #4a5568 100%);
+  color: #e2e8f0 !important;
+}
+
+[data-theme='light'] footer a {
+  color: #cbd5e0 !important;
+}
+
+[data-theme='light'] footer a:hover {
+  color: white !important;
+}
+
+/* Main content area text */
+.markdown {
+  color: #1f2937;
+}
+
+[data-theme='light'] .markdown p,
+[data-theme='light'] .markdown li {
+  color: #374151 !important;
+}
+
+[data-theme='light'] .markdown h1,
+[data-theme='light'] .markdown h2,
+[data-theme='light'] .markdown h3,
+[data-theme='light'] .markdown h4,
+[data-theme='light'] .markdown h5,
+[data-theme='light'] .markdown h6 {
+  color: #111827 !important;
+}
+
 /* Mobile optimizations */
 @media (max-width: 768px) {
   .blog-post-item {
