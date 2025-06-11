@@ -40,8 +40,8 @@ function ProjectShowcase() {
             <div className={styles.projectImage}>
               <div className={styles.moviePoster}>
                 <h3>🌱 Module 01</h3>
-                <h2>From Concept to Carbon</h2>
-                <p className={styles.tagline}>Building a Multi-Chain NFT System with AI</p>
+                <h2>From Concept to Event Pass</h2>
+                <p className={styles.tagline}>Building Multi-Chain NFT Event Passes with AI</p>
                 <div className={styles.stats}>
                   <span>181 Commits</span> • <span>41 AI Sessions</span> • <span>37k Words</span>
                 </div>
@@ -52,9 +52,9 @@ function ProjectShowcase() {
             <div className={styles.projectStory}>
               <h3>The Drama</h3>
               <p>
-                A human and AI embark on an ambitious mission to tokenize carbon credits on the blockchain. 
-                What starts as a simple NFT contract evolves into a <strong>production-ready, multi-chain ecosystem</strong> 
-                managing 300 tons of CO₂ across 210 unique tokens.
+                A human and AI embark on an ambitious mission to create NFT passes for carbon-neutral events. 
+                What starts as a simple NFT contract evolves into a <strong>production-ready, multi-chain system</strong> 
+                managing event access for 210 unique attendees with carbon offset tracking.
               </p>
               <p>
                 <strong>The Challenge:</strong> Migrate from Hardhat to Foundry mid-project. Deploy identical contracts 
@@ -127,9 +127,6 @@ function ProjectShowcase() {
           <div className={styles.ctaButtons}>
             <Link to="/docs/intro" className="button button--primary button--lg margin-horiz--sm">
               🎯 Start with Overview
-            </Link>
-            <Link to="/blog" className="button button--secondary button--lg margin-horiz--sm">
-              📚 Browse All Stories
             </Link>
           </div>
         </div>
