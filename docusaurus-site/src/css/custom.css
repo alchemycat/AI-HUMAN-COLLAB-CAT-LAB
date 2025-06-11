@@ -625,6 +625,118 @@ a[class*="purple"] {
      2px  2px 8px rgba(0,0,0,0.9) !important;
 }
 
+/* Light theme specific fixes */
+[data-theme='light'] {
+  --ifm-menu-color: #4a5568;
+  --ifm-menu-color-active: #ffffff;
+  --ifm-color-emphasis-200: #f0f2f5;
+  --ifm-color-emphasis-300: #e1e5ea;
+}
+
+[data-theme='light'] .menu__link {
+  color: #4a5568 !important;
+  font-weight: 500;
+}
+
+[data-theme='light'] .menu__link:hover {
+  background: #f0f2f5 !important;
+  color: #1a202c !important;
+  font-weight: 600;
+}
+
+[data-theme='light'] .menu__caret {
+  color: #4a5568 !important;
+}
+
+[data-theme='light'] .theme-doc-sidebar-item-category .menu__link {
+  color: #2d3748 !important;
+  font-weight: 600;
+}
+
+[data-theme='light'] .theme-doc-sidebar-item-category .menu__link:hover {
+  color: #1a202c !important;
+  background: #e2e8f0 !important;
+}
+
+/* Gray module headers in light theme */
+[data-theme='light'] .theme-doc-sidebar-item-category > .menu__list-item-collapsible {
+  background: #d1d5db;
+  border-radius: 8px;
+  margin-bottom: 8px;
+  border: 1px solid #9ca3af;
+}
+
+[data-theme='light'] .theme-doc-sidebar-item-category > .menu__list-item-collapsible > .menu__link {
+  color: #111827 !important;
+  font-weight: 700;
+  padding: 12px 16px;
+}
+
+[data-theme='light'] .theme-doc-sidebar-item-category > .menu__list-item-collapsible:hover {
+  background: #9ca3af;
+}
+
+/* Fix the breadcrumb in light theme */
+[data-theme='light'] .breadcrumbs {
+  background: #f3f4f6;
+  border: 1px solid #d1d5db;
+}
+
+[data-theme='light'] .breadcrumbs__link {
+  color: #374151 !important;
+  font-weight: 500;
+}
+
+[data-theme='light'] .breadcrumbs__item:not(:last-child) {
+  color: #374151 !important;
+}
+
+/* Light theme purple button fix */
+[data-theme='light'] .theme-doc-sidebar-item-link-level-1 > a,
+[data-theme='light'] .theme-doc-sidebar-item-link-level-2 > a,
+[data-theme='light'] .theme-doc-sidebar-item-link-level-3 > a {
+  color: #374151 !important;
+  font-weight: 500;
+}
+
+[data-theme='light'] .theme-doc-sidebar-item-link-level-1 > a:hover,
+[data-theme='light'] .theme-doc-sidebar-item-link-level-2 > a:hover,
+[data-theme='light'] .theme-doc-sidebar-item-link-level-3 > a:hover {
+  background: #e5e7eb !important;
+  color: #111827 !important;
+}
+
+/* Ensure the "AI-Human Collaborationoratory" header is visible */
+[data-theme='light'] .navbar__sidebar .sidebar_src-theme-DocSidebar-Desktop-styles-module:first-child,
+[data-theme='light'] .theme-doc-sidebar-container nav > .menu__list:first-child::before {
+  content: "AI-Human Collaborationoratory";
+  display: block;
+  background: #5b4bca;
+  color: white !important;
+  padding: 16px;
+  border-radius: 8px;
+  margin-bottom: 16px;
+  font-weight: 700;
+  text-align: center;
+}
+
+/* Fix sidebar title visibility */
+[data-theme='light'] .navbar__sidebar__brand,
+[data-theme='light'] .theme-doc-sidebar-menu > .menu__list > li:first-child {
+  background: #5b4bca;
+  color: white !important;
+  padding: 12px 16px;
+  border-radius: 8px;
+  margin-bottom: 12px;
+  font-weight: 700;
+}
+
+[data-theme='light'] .navbar__sidebar__brand a,
+[data-theme='light'] .theme-doc-sidebar-menu > .menu__list > li:first-child a {
+  color: white !important;
+  text-decoration: none;
+}
+
 /* Mobile optimizations */
 @media (max-width: 768px) {
   .blog-post-item {
