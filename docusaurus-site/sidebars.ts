@@ -57,6 +57,47 @@ const sidebars: SidebarsConfig = {
         'uniserv-nft-carbon-credit/blog/AI_HUMAN_COLLABORATION_STORY',
       ],
     },
+    {
+      type: 'category',
+      label: 'Project 002 - LIFF Carbon Offset App',
+      collapsed: false, // Expanded by default
+      items: [
+        'liff-carbon-offset-app/INDEX',
+        {
+          type: 'category',
+          label: 'AI Analysis Diary',
+          collapsed: false, // Expanded by default
+          items: [
+            'liff-carbon-offset-app/diary/HONEST_REFLECTION',
+            'liff-carbon-offset-app/diary/ANALYSIS_SESSION_REALITY',
+            'liff-carbon-offset-app/diary/CODE_EXPLORATION_INSIGHTS',
+            'liff-carbon-offset-app/diary/TECHNICAL_DISCOVERIES',
+          ],
+        },
+        {
+          type: 'category',
+          label: 'Technical Analysis',
+          collapsed: false, // Expanded by default
+          items: [
+            'liff-carbon-offset-app/analysis/CODEBASE_ARCHITECTURE',
+            'liff-carbon-offset-app/analysis/GIT_HISTORY_ANALYSIS',
+            'liff-carbon-offset-app/analysis/LIFF_IMPLEMENTATION_REVIEW',
+            'liff-carbon-offset-app/analysis/ENVIRONMENTAL_IMPACT_ASSESSMENT',
+          ],
+        },
+        {
+          type: 'category',
+          label: 'Executive Reports',
+          collapsed: false, // Expanded by default
+          items: [
+            'liff-carbon-offset-app/reports/REPOSITORY_FINAL_REPORT',
+            'liff-carbon-offset-app/reports/TECHNICAL_ASSESSMENT',
+            'liff-carbon-offset-app/reports/SUSTAINABILITY_ANALYSIS',
+          ],
+        },
+        'liff-carbon-offset-app/blog/LIFF_CARBON_ANALYSIS_STORY',
+      ],
+    },
   ],
 };
 

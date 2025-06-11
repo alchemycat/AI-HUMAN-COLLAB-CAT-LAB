@@ -1,0 +1,37 @@
+{
+  "metadata": {
+    "extracted_at": "2025-06-11T01:43:55.057Z",
+    "project_root": "/home/floodboy/AI-HUMAN-COLLAB-CAT-LAB/liff-carbon-offset-app",
+    "analyzer_version": "1.0.0"
+  },
+  "statistics": {
+    "overview": {
+      "total_commits": 278,
+      "total_ai_sessions": 14,
+      "total_files_tracked": 8,
+      "timeline_events": 279
+    },
+    "repository": {
+      "first_commit": "2025-05-15 21:28:34 +0700",
+      "last_commit": "2025-06-10 17:22:53 +0700",
+      "total_contributors": 4
+    },
+    "development": {
+      "most_changed_file": {
+        "file": "workers/routes/admin.ts",
+        "changes": 1074
+      },
+      "most_active_phase": [
+        "LIFF Development",
+        82
+      ],
+      "session_documentation": 7877
+    }
+  },
+  "quick_facts": {
+    "total_commits": 278,
+    "ai_sessions": 14,
+    "timeline_events": 279,
+    "contributors": 4
+  }
+}
