@@ -321,5 +321,157 @@
   "theme.tags.tagsPageTitle": {
     "message": "แท็ก",
     "description": "The title of the tag list page"
+  },
+  "homepage.title": {
+    "message": "ห้องปฏิบัติการความร่วมมือ AI-มนุษย์",
+    "description": "The homepage title"
+  },
+  "homepage.subtitle": {
+    "message": "เมื่อปัญญาประดิษฐ์พบกับความคิดสร้างสรรค์ของมนุษย์ สิ่งพิเศษเกิดขึ้น",
+    "description": "The homepage subtitle"
+  },
+  "homepage.subtitle2": {
+    "message": "สองเส้นทางการเดินทางอันยิ่งใหญ่ของการสร้างซอฟต์แวร์ระดับ production ร่วมกัน",
+    "description": "The homepage subtitle part 2"
+  },
+  "homepage.enterLab": {
+    "message": "🎬 เข้าสู่ห้องปฏิบัติการ",
+    "description": "Enter the laboratory button"
+  },
+  "homepage.twoStories": {
+    "message": "สองเรื่องราวมหากาพย์ของนวัตกรรม AI-มนุษย์",
+    "description": "Two epic stories heading"
+  },
+  "homepage.module01": {
+    "message": "🌱 โมดูล 01",
+    "description": "Module 01 label"
+  },
+  "homepage.module01.title": {
+    "message": "จากแนวคิดสู่บัตรผ่านงาน",
+    "description": "Module 01 title"
+  },
+  "homepage.module01.tagline": {
+    "message": "สร้าง NFT บัตรผ่านงานแบบหลายเชนด้วย AI",
+    "description": "Module 01 tagline"
+  },
+  "homepage.module01.commits": {
+    "message": "181 Commits",
+    "description": "Module 01 commits"
+  },
+  "homepage.module01.sessions": {
+    "message": "41 เซสชัน AI",
+    "description": "Module 01 AI sessions"
+  },
+  "homepage.module01.words": {
+    "message": "37k คำ",
+    "description": "Module 01 word count"
+  },
+  "homepage.drama": {
+    "message": "ดราม่า",
+    "description": "The Drama heading"
+  },
+  "homepage.module01.story1": {
+    "message": "มนุษย์และ AI ร่วมเดินทางในภารกิจที่ท้าทายเพื่อสร้างบัตรผ่าน NFT สำหรับงานคาร์บอนเป็นกลาง สิ่งที่เริ่มต้นจาก NFT contract ธรรมดาพัฒนาเป็นระบบหลายเชนพร้อมใช้งานจริง จัดการการเข้างานสำหรับผู้เข้าร่วม 210 คนพร้อมติดตามคาร์บอนออฟเซ็ต",
+    "description": "Module 01 story paragraph 1"
+  },
+  "homepage.module01.challenge": {
+    "message": "ความท้าทาย:",
+    "description": "The Challenge label"
+  },
+  "homepage.module01.story2": {
+    "message": "ย้ายจาก Hardhat ไป Foundry กลางโครงการ Deploy contracts เดียวกันข้ามหลาย blockchains สร้าง 6 frontend interfaces ปรับแต่ง performance ด้วย Multicall3",
+    "description": "Module 01 story paragraph 2"
+  },
+  "homepage.module01.breakthrough": {
+    "message": "การค้นพบ:",
+    "description": "The Breakthrough label"
+  },
+  "homepage.module01.story3": {
+    "message": "วิธีการทำงานร่วมกันเกิดขึ้น—การพัฒนาแบบรวดเร็ว ผลลัพธ์ที่มองเห็นได้ การจดจำรูปแบบ เวลาโหลดลดจาก 30+ วินาทีเหลือต่ำกว่า 3 วินาที",
+    "description": "Module 01 story paragraph 3"
+  },
+  "homepage.readCompleteStory": {
+    "message": "📖 อ่านเรื่องราวฉบับสมบูรณ์",
+    "description": "Read complete story button"
+  },
+  "homepage.executiveSummary": {
+    "message": "🚀 สรุปผู้บริหาร 15 นาที",
+    "description": "Executive summary button"
+  },
+  "homepage.module02": {
+    "message": "🔍 โมดูล 02",
+    "description": "Module 02 label"
+  },
+  "homepage.module02.title": {
+    "message": "นักสืบวิเคราะห์ Repository",
+    "description": "Module 02 title"
+  },
+  "homepage.module02.tagline": {
+    "message": "วิเคราะห์เทคโนโลยี LIFF Carbon ระดับ Production",
+    "description": "Module 02 tagline"
+  },
+  "homepage.module02.commits": {
+    "message": "278 Commits",
+    "description": "Module 02 commits"
+  },
+  "homepage.module02.analysis": {
+    "message": "วิเคราะห์ 3 ชั่วโมง",
+    "description": "Module 02 analysis time"
+  },
+  "homepage.module02.words": {
+    "message": "15k คำ",
+    "description": "Module 02 word count"
+  },
+  "homepage.mystery": {
+    "message": "ปริศนา",
+    "description": "The Mystery heading"
+  },
+  "homepage.module02.story1": {
+    "message": "นักสืบ AI ดำดิ่งลึกเข้าไปในโค้ด production ที่ไม่รู้จัก—แอปพลิเคชัน LIFF carbon offset ที่ซับซ้อน 278 commits, 4 ผู้พัฒนา, 26 วันของการพัฒนา โบราณคดีโค้ดจะเปิดเผยความลับอะไร?",
+    "description": "Module 02 story paragraph 1"
+  },
+  "homepage.module02.discovery": {
+    "message": "การค้นพบ:",
+    "description": "The Discovery label"
+  },
+  "homepage.module02.story2": {
+    "message": "นี่ไม่ใช่โค้ดจาก tutorial นี่คือซอฟต์แวร์ production จริงจังพร้อมการจัดการ LIFF เฉพาะแพลตฟอร์ม การรวม blockchain หลายเชน การคำนวณสิ่งแวดล้อมจริง และ workflows การชำระเงินที่ซับซ้อน",
+    "description": "Module 02 story paragraph 2"
+  },
+  "homepage.module02.revelation": {
+    "message": "การเปิดเผย:",
+    "description": "The Revelation label"
+  },
+  "homepage.module02.story3": {
+    "message": "วิธีที่ทีมมืออาชีพสร้างซอฟต์แวร์จริงๆ—การพัฒนาของมนุษย์ที่ยุ่งเหยิง วนซ้ำ ที่แก้ปัญหาจริง รูปแบบการ integration mobile ขั้นสูงที่ไม่เคยพบในเอกสาร",
+    "description": "Module 02 story paragraph 3"
+  },
+  "homepage.uncoverJourney": {
+    "message": "🔍 ค้นพบเส้นทางการวิเคราะห์",
+    "description": "Uncover journey button"
+  },
+  "homepage.executiveAssessment": {
+    "message": "📊 การประเมินผู้บริหาร",
+    "description": "Executive assessment button"
+  },
+  "homepage.chooseAdventure": {
+    "message": "เลือกการผจญภัยของคุณ",
+    "description": "Choose your adventure heading"
+  },
+  "homepage.chooseAdventure.desc1": {
+    "message": "สองเรื่องราวที่แตกต่าง สองแนวทางของความร่วมมือ AI-มนุษย์",
+    "description": "Choose adventure description 1"
+  },
+  "homepage.chooseAdventure.desc2": {
+    "message": "หนึ่งสร้างจากศูนย์ หนึ่งวิเคราะห์ความเชี่ยวชาญที่มีอยู่",
+    "description": "Choose adventure description 2"
+  },
+  "homepage.startOverview": {
+    "message": "🎯 เริ่มจากภาพรวม",
+    "description": "Start with overview button"
+  },
+  "homepage.metaDescription": {
+    "message": "เมื่อปัญญาประดิษฐ์พบกับความคิดสร้างสรรค์ของมนุษย์ - สองเส้นทางการเดินทางอันยิ่งใหญ่ของการสร้างซอฟต์แวร์ระดับ production ร่วมกัน",
+    "description": "The meta description for the homepage"
   }
 }

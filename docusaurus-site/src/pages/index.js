@@ -3,6 +3,7 @@ import clsx from 'clsx';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
+import Translate, {translate} from '@docusaurus/Translate';
 
 import styles from './index.module.css';
 
@@ -11,16 +12,23 @@ function HomepageHeader() {
   return (
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
       <div className="container">
-        <h1 className="hero__title">AI-Human Collaboration Laboratory</h1>
+        <h1 className="hero__title">
+          <Translate id="homepage.title">AI-Human Collaboration Laboratory</Translate>
+        </h1>
         <p className="hero__subtitle">
-          When artificial intelligence meets human creativity, extraordinary things happen.<br/>
-          Two epic journeys of building production software together.
+          <Translate id="homepage.subtitle">
+            When artificial intelligence meets human creativity, extraordinary things happen.
+          </Translate>
+          <br/>
+          <Translate id="homepage.subtitle2">
+            Two epic journeys of building production software together.
+          </Translate>
         </p>
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
             to="/docs/intro">
-            🎬 Enter the Laboratory
+            <Translate id="homepage.enterLab">🎬 Enter the Laboratory</Translate>
           </Link>
         </div>
       </div>
@@ -32,44 +40,58 @@ function ProjectShowcase() {
   return (
     <section className={styles.features}>
       <div className="container">
-        <h2 className="text--center margin-bottom--lg">Two Epic Stories of AI-Human Innovation</h2>
+        <h2 className="text--center margin-bottom--lg">
+          <Translate id="homepage.twoStories">Two Epic Stories of AI-Human Innovation</Translate>
+        </h2>
         
         {/* Project 01 Card */}
         <div className={clsx('row', styles.projectCard)}>
           <div className="col col--6">
             <div className={styles.projectImage}>
               <div className={styles.moviePoster}>
-                <h3>🌱 Module 01</h3>
-                <h2>From Concept to Event Pass</h2>
-                <p className={styles.tagline}>Building Multi-Chain NFT Event Passes with AI</p>
+                <h3><Translate id="homepage.module01">🌱 Module 01</Translate></h3>
+                <h2><Translate id="homepage.module01.title">From Concept to Event Pass</Translate></h2>
+                <p className={styles.tagline}>
+                  <Translate id="homepage.module01.tagline">Building Multi-Chain NFT Event Passes with AI</Translate>
+                </p>
                 <div className={styles.stats}>
-                  <span>181 Commits</span> • <span>41 AI Sessions</span> • <span>37k Words</span>
+                  <span><Translate id="homepage.module01.commits">181 Commits</Translate></span> • 
+                  <span><Translate id="homepage.module01.sessions">41 AI Sessions</Translate></span> • 
+                  <span><Translate id="homepage.module01.words">37k Words</Translate></span>
                 </div>
               </div>
             </div>
           </div>
           <div className="col col--6">
             <div className={styles.projectStory}>
-              <h3>The Drama</h3>
+              <h3><Translate id="homepage.drama">The Drama</Translate></h3>
               <p>
-                A human and AI embark on an ambitious mission to create NFT passes for carbon-neutral events. 
-                What starts as a simple NFT contract evolves into a <strong>production-ready, multi-chain system</strong> 
-                managing event access for 210 unique attendees with carbon offset tracking.
+                <Translate id="homepage.module01.story1">
+                  A human and AI embark on an ambitious mission to create NFT passes for carbon-neutral events. 
+                  What starts as a simple NFT contract evolves into a production-ready, multi-chain system 
+                  managing event access for 210 unique attendees with carbon offset tracking.
+                </Translate>
               </p>
               <p>
-                <strong>The Challenge:</strong> Migrate from Hardhat to Foundry mid-project. Deploy identical contracts 
-                across multiple blockchains. Build 6 frontend interfaces. Optimize performance with Multicall3.
+                <strong><Translate id="homepage.module01.challenge">The Challenge:</Translate></strong>{' '}
+                <Translate id="homepage.module01.story2">
+                  Migrate from Hardhat to Foundry mid-project. Deploy identical contracts 
+                  across multiple blockchains. Build 6 frontend interfaces. Optimize performance with Multicall3.
+                </Translate>
               </p>
               <p>
-                <strong>The Breakthrough:</strong> A collaboration methodology emerges—rapid iteration, visual results, 
-                pattern recognition. Loading times drop from 30+ seconds to under 3 seconds.
+                <strong><Translate id="homepage.module01.breakthrough">The Breakthrough:</Translate></strong>{' '}
+                <Translate id="homepage.module01.story3">
+                  A collaboration methodology emerges—rapid iteration, visual results, 
+                  pattern recognition. Loading times drop from 30+ seconds to under 3 seconds.
+                </Translate>
               </p>
               <div className={styles.projectLinks}>
                 <Link to="/docs/uniserv-nft-carbon-credit/" className="button button--primary">
-                  📖 Read the Complete Story
+                  <Translate id="homepage.readCompleteStory">📖 Read the Complete Story</Translate>
                 </Link>
                 <Link to="/docs/uniserv-nft-carbon-credit/PROJECT_OVERVIEW" className="button button--outline button--primary">
-                  🚀 15-Min Executive Summary
+                  <Translate id="homepage.executiveSummary">🚀 15-Min Executive Summary</Translate>
                 </Link>
               </div>
             </div>
@@ -80,25 +102,33 @@ function ProjectShowcase() {
         <div className={clsx('row', styles.projectCard, styles.projectCardReverse)}>
           <div className="col col--6">
             <div className={styles.projectStory}>
-              <h3>The Mystery</h3>
+              <h3><Translate id="homepage.mystery">The Mystery</Translate></h3>
               <p>
-                An AI detective dives deep into unknown production code—a sophisticated LIFF carbon offset application. 
-                <strong>278 commits, 4 contributors, 26 days of development.</strong> What secrets will the code archaeology reveal?
+                <Translate id="homepage.module02.story1">
+                  An AI detective dives deep into unknown production code—a sophisticated LIFF carbon offset application. 
+                  278 commits, 4 contributors, 26 days of development. What secrets will the code archaeology reveal?
+                </Translate>
               </p>
               <p>
-                <strong>The Discovery:</strong> This isn't tutorial code. It's serious production software with platform-specific 
-                LIFF handling, multi-chain blockchain integration, real environmental calculations, and complex payment workflows.
+                <strong><Translate id="homepage.module02.discovery">The Discovery:</Translate></strong>{' '}
+                <Translate id="homepage.module02.story2">
+                  This isn't tutorial code. It's serious production software with platform-specific 
+                  LIFF handling, multi-chain blockchain integration, real environmental calculations, and complex payment workflows.
+                </Translate>
               </p>
               <p>
-                <strong>The Revelation:</strong> How professional teams really build software—messy, iterative, human development 
-                that solves real problems. Advanced mobile integration patterns never found in documentation.
+                <strong><Translate id="homepage.module02.revelation">The Revelation:</Translate></strong>{' '}
+                <Translate id="homepage.module02.story3">
+                  How professional teams really build software—messy, iterative, human development 
+                  that solves real problems. Advanced mobile integration patterns never found in documentation.
+                </Translate>
               </p>
               <div className={styles.projectLinks}>
                 <Link to="/docs/liff-carbon-offset-app/" className="button button--primary">
-                  🔍 Uncover the Analysis Journey
+                  <Translate id="homepage.uncoverJourney">🔍 Uncover the Analysis Journey</Translate>
                 </Link>
                 <Link to="/docs/liff-carbon-offset-app/reports/REPOSITORY_FINAL_REPORT" className="button button--outline button--primary">
-                  📊 Executive Assessment
+                  <Translate id="homepage.executiveAssessment">📊 Executive Assessment</Translate>
                 </Link>
               </div>
             </div>
@@ -106,11 +136,15 @@ function ProjectShowcase() {
           <div className="col col--6">
             <div className={styles.projectImage}>
               <div className={clsx(styles.moviePoster, styles.posterSecondary)}>
-                <h3>🔍 Module 02</h3>
-                <h2>AI Repository Detective</h2>
-                <p className={styles.tagline}>Analyzing Production LIFF Carbon Technology</p>
+                <h3><Translate id="homepage.module02">🔍 Module 02</Translate></h3>
+                <h2><Translate id="homepage.module02.title">AI Repository Detective</Translate></h2>
+                <p className={styles.tagline}>
+                  <Translate id="homepage.module02.tagline">Analyzing Production LIFF Carbon Technology</Translate>
+                </p>
                 <div className={styles.stats}>
-                  <span>278 Commits</span> • <span>3 Hours Analysis</span> • <span>15k Words</span>
+                  <span><Translate id="homepage.module02.commits">278 Commits</Translate></span> • 
+                  <span><Translate id="homepage.module02.analysis">3 Hours Analysis</Translate></span> • 
+                  <span><Translate id="homepage.module02.words">15k Words</Translate></span>
                 </div>
               </div>
             </div>
@@ -119,14 +153,19 @@ function ProjectShowcase() {
 
         {/* Call to Action */}
         <div className="text--center margin-top--xl">
-          <h2>Choose Your Adventure</h2>
+          <h2><Translate id="homepage.chooseAdventure">Choose Your Adventure</Translate></h2>
           <p className="margin-bottom--lg">
-            Two different stories, two different approaches to AI-human collaboration.<br/>
-            One builds from scratch, one analyzes existing mastery.
+            <Translate id="homepage.chooseAdventure.desc1">
+              Two different stories, two different approaches to AI-human collaboration.
+            </Translate>
+            <br/>
+            <Translate id="homepage.chooseAdventure.desc2">
+              One builds from scratch, one analyzes existing mastery.
+            </Translate>
           </p>
           <div className={styles.ctaButtons}>
             <Link to="/docs/intro" className="button button--primary button--lg margin-horiz--sm">
-              🎯 Start with Overview
+              <Translate id="homepage.startOverview">🎯 Start with Overview</Translate>
             </Link>
           </div>
         </div>
@@ -140,7 +179,11 @@ export default function Home() {
   return (
     <Layout
       title={`${siteConfig.title}`}
-      description="When artificial intelligence meets human creativity - Two epic journeys of building production software together">
+      description={translate({
+        id: 'homepage.metaDescription',
+        message: 'When artificial intelligence meets human creativity - Two epic journeys of building production software together',
+        description: 'The meta description for the homepage'
+      })}>
       <HomepageHeader />
       <main>
         <ProjectShowcase />
