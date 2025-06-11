@@ -18,15 +18,15 @@ const sidebars: SidebarsConfig = {
     'intro',
     {
       type: 'category',
-      label: 'Project 001 - Uniserv NFT Carbon Credit',
+      label: '1️⃣ Project 001 - Uniserv NFT Carbon Credit',
       collapsed: true, // Collapsed by default
       items: [
         'uniserv-nft-carbon-credit/index',
         'uniserv-nft-carbon-credit/PROJECT_OVERVIEW',
         {
           type: 'category',
-          label: 'Personal Diary',
-          collapsed: true, // Collapsed by default
+          label: '1.1 📝 Personal Diary (5 docs)',
+          collapsed: false, // Expanded when parent opens
           items: [
             'uniserv-nft-carbon-credit/diary/HONEST_REFLECTION',
             'uniserv-nft-carbon-credit/diary/SESSION_BY_SESSION_REALITY',
@@ -37,8 +37,8 @@ const sidebars: SidebarsConfig = {
         },
         {
           type: 'category',
-          label: 'Analysis',
-          collapsed: true, // Collapsed by default
+          label: '1.2 🔍 Analysis (2 docs)',
+          collapsed: false, // Expanded when parent opens
           items: [
             'uniserv-nft-carbon-credit/analysis/CHALLENGES_AND_SOLUTIONS',
             'uniserv-nft-carbon-credit/analysis/COLLABORATION_FAILURE_POINTS',
@@ -46,27 +46,34 @@ const sidebars: SidebarsConfig = {
         },
         {
           type: 'category',
-          label: 'Reports',
-          collapsed: true, // Collapsed by default
+          label: '1.3 📊 Reports (3 docs)',
+          collapsed: false, // Expanded when parent opens
           items: [
             'uniserv-nft-carbon-credit/reports/PROJECT_FINAL_REPORT',
             'uniserv-nft-carbon-credit/reports/TECHNICAL_ACHIEVEMENTS',
             'uniserv-nft-carbon-credit/reports/FUTURE_ROADMAP',
           ],
         },
-        'uniserv-nft-carbon-credit/blog/AI_HUMAN_COLLABORATION_STORY',
+        {
+          type: 'category',
+          label: '1.4 📖 Complete Story (1 doc)',
+          collapsed: false, // Expanded when parent opens
+          items: [
+            'uniserv-nft-carbon-credit/blog/AI_HUMAN_COLLABORATION_STORY',
+          ],
+        },
       ],
     },
     {
       type: 'category',
-      label: 'Project 002 - LIFF Carbon Offset App',
+      label: '2️⃣ Project 002 - LIFF Carbon Offset App',
       collapsed: true, // Collapsed by default
       items: [
         'liff-carbon-offset-app/INDEX',
         {
           type: 'category',
-          label: 'AI Analysis Diary',
-          collapsed: true, // Collapsed by default
+          label: '2.1 📝 AI Analysis Diary (4 docs)',
+          collapsed: false, // Expanded when parent opens
           items: [
             'liff-carbon-offset-app/diary/HONEST_REFLECTION',
             'liff-carbon-offset-app/diary/ANALYSIS_SESSION_REALITY',
@@ -76,8 +83,8 @@ const sidebars: SidebarsConfig = {
         },
         {
           type: 'category',
-          label: 'Technical Analysis',
-          collapsed: true, // Collapsed by default
+          label: '2.2 🔍 Technical Analysis (4 docs)',
+          collapsed: false, // Expanded when parent opens
           items: [
             'liff-carbon-offset-app/analysis/CODEBASE_ARCHITECTURE',
             'liff-carbon-offset-app/analysis/GIT_HISTORY_ANALYSIS',
@@ -87,15 +94,22 @@ const sidebars: SidebarsConfig = {
         },
         {
           type: 'category',
-          label: 'Executive Reports',
-          collapsed: true, // Collapsed by default
+          label: '2.3 📊 Executive Reports (3 docs)',
+          collapsed: false, // Expanded when parent opens
           items: [
             'liff-carbon-offset-app/reports/REPOSITORY_FINAL_REPORT',
             'liff-carbon-offset-app/reports/TECHNICAL_ASSESSMENT',
             'liff-carbon-offset-app/reports/SUSTAINABILITY_ANALYSIS',
           ],
         },
-        'liff-carbon-offset-app/blog/LIFF_CARBON_ANALYSIS_STORY',
+        {
+          type: 'category',
+          label: '2.4 📖 Analysis Story (1 doc)',
+          collapsed: false, // Expanded when parent opens
+          items: [
+            'liff-carbon-offset-app/blog/LIFF_CARBON_ANALYSIS_STORY',
+          ],
+        },
       ],
     },
   ],
