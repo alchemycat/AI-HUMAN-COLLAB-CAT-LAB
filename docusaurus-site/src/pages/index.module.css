@@ -1,0 +1,242 @@
+/**
+ * CSS files with the .module.css suffix will be treated as CSS modules
+ * and scoped locally.
+ */
+
+.heroBanner {
+  padding: 4rem 0;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.features {
+  display: flex;
+  align-items: center;
+  padding: 2rem 0;
+  width: 100%;
+}
+
+.projectCard {
+  margin-bottom: 4rem;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.projectCard:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
+}
+
+.projectCardReverse {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+}
+
+.projectImage {
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.moviePoster {
+  background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%);
+  color: white;
+  padding: 2rem;
+  border-radius: 12px;
+  text-align: center;
+  width: 100%;
+  max-width: 300px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+  transform: perspective(1000px) rotateY(-5deg);
+  transition: transform 0.3s ease;
+}
+
+.moviePoster:hover {
+  transform: perspective(1000px) rotateY(0deg);
+}
+
+.posterSecondary {
+  background: linear-gradient(135deg, #ff7b7b 0%, #d6336c 100%);
+}
+
+.moviePoster h3 {
+  margin: 0 0 0.5rem 0;
+  font-size: 0.9rem;
+  opacity: 0.8;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.moviePoster h2 {
+  margin: 0 0 1rem 0;
+  font-size: 1.8rem;
+  font-weight: bold;
+  line-height: 1.2;
+}
+
+.tagline {
+  font-style: italic;
+  margin: 0 0 1.5rem 0;
+  opacity: 0.9;
+  font-size: 0.95rem;
+}
+
+.stats {
+  border-top: 1px solid rgba(255, 255, 255, 0.3);
+  padding-top: 1rem;
+  font-size: 0.85rem;
+  opacity: 0.8;
+}
+
+.stats span {
+  margin: 0 0.25rem;
+  font-weight: 500;
+}
+
+.projectStory {
+  padding: 2rem;
+}
+
+.projectStory h3 {
+  color: #2c3e50;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+.projectCardReverse .projectStory h3 {
+  color: white;
+}
+
+.projectStory p {
+  margin-bottom: 1rem;
+  line-height: 1.6;
+  color: #5a6c7d;
+}
+
+.projectCardReverse .projectStory p {
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.projectLinks {
+  margin-top: 1.5rem;
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.ctaButtons {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* Dark theme adjustments */
+[data-theme='dark'] .projectCard {
+  background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%);
+  color: white;
+}
+
+[data-theme='dark'] .projectCard .projectStory h3 {
+  color: #ecf0f1;
+}
+
+[data-theme='dark'] .projectCard .projectStory p {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+[data-theme='dark'] .moviePoster {
+  background: linear-gradient(135deg, #1a252f 0%, #2c3e50 100%);
+}
+
+/* Responsive design */
+@media screen and (max-width: 996px) {
+  .heroBanner {
+    padding: 2rem;
+  }
+  
+  .projectCard {
+    margin-bottom: 2rem;
+  }
+  
+  .projectImage {
+    order: 2;
+    padding: 1rem;
+  }
+  
+  .projectStory {
+    order: 1;
+    padding: 1.5rem;
+  }
+  
+  .projectLinks {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .projectLinks .button {
+    width: 100%;
+    max-width: 250px;
+  }
+  
+  .ctaButtons {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .ctaButtons .button {
+    width: 100%;
+    max-width: 250px;
+  }
+  
+  .moviePoster {
+    transform: none;
+    max-width: 250px;
+  }
+  
+  .moviePoster h2 {
+    font-size: 1.5rem;
+  }
+}
+
+/* Animation for the hero section */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.heroBanner * {
+  animation: fadeInUp 0.6s ease-out;
+}
+
+.heroBanner .hero__title {
+  animation-delay: 0.1s;
+}
+
+.heroBanner .hero__subtitle {
+  animation-delay: 0.2s;
+}
+
+.heroBanner .buttons {
+  animation-delay: 0.3s;
+}

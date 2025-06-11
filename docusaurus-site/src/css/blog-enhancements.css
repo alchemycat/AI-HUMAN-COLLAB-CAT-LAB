@@ -1,0 +1,449 @@
+/* Blog Enhancements for AI-Human Collaboration Documentation */
+
+/* Hero sections and call-to-action boxes - Fixed contrast */
+.hero-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 30px 0;
+}
+
+.hero-card {
+  background: linear-gradient(135deg, #4c51bf, #553c9a);
+  color: white;
+  padding: 20px;
+  border-radius: 15px;
+  text-align: center;
+  margin: 10px 0;
+  max-width: 400px;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.2);
+  transition: transform 0.3s ease;
+  border: 1px solid rgba(255,255,255,0.1);
+}
+
+.hero-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 40px rgba(0,0,0,0.3);
+}
+
+.hero-card h3,
+.hero-card h4 {
+  color: white !important;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
+}
+
+.hero-card p {
+  color: rgba(255,255,255,0.95) !important;
+}
+
+.arrow {
+  font-size: 2em;
+  color: #6c5ce7;
+  margin: 10px 0;
+  animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-10px);
+  }
+  60% {
+    transform: translateY(-5px);
+  }
+}
+
+/* Timeline components */
+.timeline-container {
+  position: relative;
+  margin: 20px 0;
+}
+
+.timeline-item {
+  display: flex;
+  align-items: center;
+  margin: 15px 0;
+  padding: 15px;
+  background: #f8f9fa;
+  border-radius: 10px;
+  border-left: 4px solid #007acc;
+  transition: all 0.3s ease;
+}
+
+.timeline-item:hover {
+  background: #e9ecef;
+  transform: translateX(5px);
+}
+
+.timeline-item.highlight {
+  background: linear-gradient(45deg, #e3f2fd, #f3e5f5);
+  border-left-color: #6c5ce7;
+}
+
+.timeline-icon {
+  font-size: 2em;
+  margin-right: 15px;
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.1); }
+  100% { transform: scale(1); }
+}
+
+/* Feature grid layouts - Fixed contrast */
+.feature-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 15px;
+  margin: 20px 0;
+}
+
+.feature-card {
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+  border: 1px solid rgba(255,255,255,0.1);
+}
+
+.feature-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 25px rgba(0,0,0,0.25);
+}
+
+.feature-card h3,
+.feature-card h4 {
+  color: white !important;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
+  margin-bottom: 10px;
+}
+
+.feature-card p {
+  color: rgba(255,255,255,0.95) !important;
+}
+
+.feature-card small {
+  color: rgba(255,255,255,0.8) !important;
+  font-weight: 500;
+}
+
+.feature-card.fix {
+  background: linear-gradient(135deg, #e53e3e, #c53030);
+  color: white;
+}
+
+.feature-card.refactor {
+  background: linear-gradient(135deg, #3182ce, #2c5282);
+  color: white;
+}
+
+.feature-card.feat {
+  background: linear-gradient(135deg, #38a169, #2f855a);
+  color: white;
+}
+
+.feature-card.docs {
+  background: linear-gradient(135deg, #d69e2e, #b7791f);
+  color: white;
+}
+
+/* Statistics cards */
+.stat-card {
+  text-align: center;
+  padding: 20px;
+  background: white;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.stat-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 3px;
+  background: linear-gradient(90deg, #6c5ce7, #74b9ff);
+  animation: slideIn 3s ease infinite;
+}
+
+@keyframes slideIn {
+  0% { left: -100%; }
+  50% { left: 0%; }
+  100% { left: 100%; }
+}
+
+.stat-card:hover {
+  transform: translateY(-10px);
+}
+
+.stat-number {
+  font-size: 2.5em;
+  font-weight: bold;
+  color: #6c5ce7;
+  margin-bottom: 10px;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+}
+
+.stat-label {
+  font-size: 1.1em;
+  font-weight: bold;
+  color: #2d3748;
+  margin-bottom: 5px;
+}
+
+.stat-desc {
+  font-size: 0.9em;
+  color: #666;
+}
+
+/* Enhanced typography */
+.blog-post h1 {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.blog-post h2 {
+  color: #2d3748;
+  border-bottom: 2px solid #e2e8f0;
+  padding-bottom: 10px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.blog-post h3 {
+  color: #4a5568;
+  margin-top: 25px;
+  margin-bottom: 15px;
+}
+
+/* Code blocks and commits */
+.commit-block {
+  background: linear-gradient(135deg, #2d3748, #4a5568);
+  color: white;
+  padding: 15px;
+  border-radius: 8px;
+  font-family: 'Monaco', 'Consolas', monospace;
+  margin: 15px 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.commit-block::before {
+  content: '💾';
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  font-size: 1.2em;
+}
+
+.commit-hash {
+  color: #ffd700;
+  font-weight: bold;
+}
+
+.commit-message {
+  color: #90cdf4;
+  margin-left: 10px;
+}
+
+/* Interactive elements */
+.interactive-badge {
+  display: inline-block;
+  background: linear-gradient(45deg, #667eea, #764ba2);
+  color: white;
+  padding: 5px 12px;
+  border-radius: 20px;
+  font-size: 0.8em;
+  font-weight: bold;
+  margin: 2px;
+  transition: transform 0.2s ease;
+  cursor: pointer;
+}
+
+.interactive-badge:hover {
+  transform: scale(1.1);
+}
+
+/* Progress bars */
+.progress-bar {
+  width: 100%;
+  height: 20px;
+  background: #e2e8f0;
+  border-radius: 10px;
+  overflow: hidden;
+  margin: 10px 0;
+}
+
+.progress-fill {
+  height: 100%;
+  background: linear-gradient(90deg, #667eea, #764ba2);
+  border-radius: 10px;
+  transition: width 2s ease;
+  position: relative;
+}
+
+.progress-fill::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 30px;
+  background: linear-gradient(90deg, transparent, rgba(255,255,255,0.5), transparent);
+  animation: shimmer 2s infinite;
+}
+
+@keyframes shimmer {
+  0% { transform: translateX(-100%); }
+  100% { transform: translateX(400%); }
+}
+
+/* Quote enhancements */
+blockquote {
+  border-left: 4px solid #6c5ce7;
+  background: linear-gradient(135deg, #f7fafc, #edf2f7);
+  padding: 20px;
+  margin: 20px 0;
+  font-style: italic;
+  position: relative;
+}
+
+blockquote::before {
+  content: '"';
+  font-size: 4em;
+  color: #6c5ce7;
+  position: absolute;
+  top: -10px;
+  left: 15px;
+  opacity: 0.3;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .feature-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .timeline-item {
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .timeline-icon {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+  
+  .hero-card {
+    max-width: 100%;
+  }
+  
+  .stat-number {
+    font-size: 2em;
+  }
+}
+
+/* Dark mode support - Fixed visibility */
+[data-theme='dark'] .stat-card {
+  background: var(--ifm-background-color);
+  color: var(--ifm-font-color-base);
+  border: 1px solid var(--ifm-color-emphasis-300);
+}
+
+[data-theme='dark'] .timeline-item {
+  background: var(--ifm-background-color);
+  color: var(--ifm-font-color-base);
+  border-left-color: var(--ifm-color-primary);
+}
+
+[data-theme='dark'] .timeline-item.highlight {
+  background: var(--ifm-color-emphasis-100);
+  border-left-color: var(--ifm-color-primary);
+}
+
+[data-theme='dark'] blockquote {
+  background: var(--ifm-color-emphasis-100);
+  color: var(--ifm-font-color-base);
+  border-left-color: var(--ifm-color-primary);
+}
+
+/* Fix menu item visibility in dark mode */
+[data-theme='dark'] .menu__link {
+  color: var(--ifm-menu-color) !important;
+}
+
+[data-theme='dark'] .menu__link:hover {
+  background: var(--ifm-menu-color-background-hover) !important;
+  color: var(--ifm-menu-color-active) !important;
+}
+
+[data-theme='dark'] .menu__link--active {
+  background: var(--ifm-menu-color-background-active) !important;
+  color: var(--ifm-menu-color-active) !important;
+}
+
+[data-theme='dark'] .menu__caret {
+  color: var(--ifm-menu-color) !important;
+}
+
+/* Fix for gradient text in dark mode */
+[data-theme='dark'] .hero-card h3,
+[data-theme='dark'] .hero-card h4 {
+  color: white !important;
+}
+
+[data-theme='dark'] .feature-card h3,
+[data-theme='dark'] .feature-card h4 {
+  color: white !important;
+}
+
+/* Special effects for celebration */
+.celebration-effect {
+  position: relative;
+  overflow: hidden;
+}
+
+.celebration-effect::before {
+  content: '🎉';
+  position: absolute;
+  top: -50px;
+  left: 50%;
+  font-size: 2em;
+  animation: celebration 3s ease infinite;
+}
+
+@keyframes celebration {
+  0% { transform: translateY(0) rotate(0deg); opacity: 0; }
+  50% { transform: translateY(50px) rotate(180deg); opacity: 1; }
+  100% { transform: translateY(100px) rotate(360deg); opacity: 0; }
+}
+
+/* Loading animations */
+.loading-dots {
+  display: inline-block;
+}
+
+.loading-dots::after {
+  content: '...';
+  animation: dots 1.5s infinite step-start;
+}
+
+@keyframes dots {
+  0%, 20% { content: '.'; }
+  40% { content: '..'; }
+  60% { content: '...'; }
+  80%, 100% { content: ''; }
+}
