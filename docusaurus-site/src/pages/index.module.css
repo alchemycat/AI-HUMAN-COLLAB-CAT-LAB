@@ -40,7 +40,7 @@
 }
 
 .projectCardReverse {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  /* background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); */
   color: white;
 }
 
@@ -52,7 +52,7 @@
 }
 
 .moviePoster {
-  background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%);
+  background: linear-gradient(135deg, #ff9a9e 0%, #fecfef 100%);
   color: white;
   padding: 2rem;
   border-radius: 12px;
