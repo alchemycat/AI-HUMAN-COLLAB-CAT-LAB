@@ -46,5 +46,129 @@
   "sidebar.projectSidebar.category.Project 002 - LIFF Carbon Offset App.Executive Reports": {
     "message": "รายงานระดับผู้บริหาร",
     "description": "The label for category Executive Reports in sidebar projectSidebar under Project 002"
+  },
+  "sidebar.projectSidebar.category.1 📝 Personal Diary (5 docs)": {
+    "message": "1 📝 บันทึกส่วนตัว (5 เอกสาร)",
+    "description": "The label for category Personal Diary in sidebar projectSidebar"
+  },
+  "sidebar.projectSidebar.category.2 🔍 Analysis (2 docs)": {
+    "message": "2 🔍 การวิเคราะห์ (2 เอกสาร)",
+    "description": "The label for category Analysis in sidebar projectSidebar"
+  },
+  "sidebar.projectSidebar.category.3 📊 Reports (3 docs)": {
+    "message": "3 📊 รายงาน (3 เอกสาร)",
+    "description": "The label for category Reports in sidebar projectSidebar"
+  },
+  "sidebar.projectSidebar.category.4 📖 Complete Story (1 doc)": {
+    "message": "4 📖 เรื่องราวที่สมบูรณ์ (1 เอกสาร)",
+    "description": "The label for category Complete Story in sidebar projectSidebar"
+  },
+  "sidebar.projectSidebar.category.1 📝 AI Analysis Diary (4 docs)": {
+    "message": "1 📝 บันทึกการวิเคราะห์ของ AI (4 เอกสาร)",
+    "description": "The label for category AI Analysis Diary in sidebar projectSidebar"
+  },
+  "sidebar.projectSidebar.category.2 🔍 Technical Analysis (4 docs)": {
+    "message": "2 🔍 การวิเคราะห์ทางเทคนิค (4 เอกสาร)",
+    "description": "The label for category Technical Analysis in sidebar projectSidebar"
+  },
+  "sidebar.projectSidebar.category.3 📊 Executive Reports (3 docs)": {
+    "message": "3 📊 รายงานระดับผู้บริหาร (3 เอกสาร)",
+    "description": "The label for category Executive Reports in sidebar projectSidebar"
+  },
+  "sidebar.projectSidebar.category.4 📖 Analysis Story (1 doc)": {
+    "message": "4 📖 เรื่องราวการวิเคราะห์ (1 เอกสาร)",
+    "description": "The label for category Analysis Story in sidebar projectSidebar"
+  },
+  "sidebar.projectSidebar.doc.1.1 Honest Reflection: What This Collaboration Was Really Like": {
+    "message": "1.1 บันทึกความรู้สึกจริง: ความร่วมมือนี้เป็นอย่างไรกันแน่",
+    "description": "The label for doc 1.1 in sidebar projectSidebar"
+  },
+  "sidebar.projectSidebar.doc.1.2 Session by Session Reality: What Actually Happened": {
+    "message": "1.2 ความเป็นจริงแต่ละเซสชัน: สิ่งที่เกิดขึ้นจริง",
+    "description": "The label for doc 1.2 in sidebar projectSidebar"
+  },
+  "sidebar.projectSidebar.doc.1.3 Collaboration Insights: What Actually Worked": {
+    "message": "1.3 ข้อมูลเชิงลึกความร่วมมือ: สิ่งที่ได้ผลจริง",
+    "description": "The label for doc 1.3 in sidebar projectSidebar"
+  },
+  "sidebar.projectSidebar.doc.1.4 Technical Evolution: What Actually Changed": {
+    "message": "1.4 วิวัฒนาการทางเทคนิค: สิ่งที่เปลี่ยนแปลงจริง",
+    "description": "The label for doc 1.4 in sidebar projectSidebar"
+  },
+  "sidebar.projectSidebar.doc.1.5 Development Timeline: Session-by-Session Journey": {
+    "message": "1.5 ไทม์ไลน์การพัฒนา: เส้นทางแต่ละเซสชัน",
+    "description": "The label for doc 1.5 in sidebar projectSidebar"
+  },
+  "sidebar.projectSidebar.doc.2.1 Challenges and Solutions: What We Actually Fixed": {
+    "message": "2.1 ความท้าทายและวิธีแก้: สิ่งที่เราแก้ไขจริง",
+    "description": "The label for doc 2.1 in sidebar projectSidebar"
+  },
+  "sidebar.projectSidebar.doc.2.2 Collaboration Failure Points: What Almost Broke This": {
+    "message": "2.2 จุดล้มเหลวของความร่วมมือ: สิ่งที่เกือบทำลายโครงการ",
+    "description": "The label for doc 2.2 in sidebar projectSidebar"
+  },
+  "sidebar.projectSidebar.doc.3.1 Project Final Report: Uniserv NFT ERC721 Carbon Credit System": {
+    "message": "3.1 รายงานสรุปโครงการ: ระบบคาร์บอนเครดิต NFT ERC721 ยูนิเซิร์ฟ",
+    "description": "The label for doc 3.1 in sidebar projectSidebar"
+  },
+  "sidebar.projectSidebar.doc.3.2 Technical Achievements: What Actually Got Built": {
+    "message": "3.2 ผลสำเร็จทางเทคนิค: สิ่งที่สร้างขึ้นจริง",
+    "description": "The label for doc 3.2 in sidebar projectSidebar"
+  },
+  "sidebar.projectSidebar.doc.3.3 Future Roadmap: Next Steps": {
+    "message": "3.3 แผนงานอนาคต: ขั้นตอนถัดไป",
+    "description": "The label for doc 3.3 in sidebar projectSidebar"
+  },
+  "sidebar.projectSidebar.doc.4.1 From Concept to Carbon: Building a Multi-Chain NFT System with AI": {
+    "message": "4.1 จากแนวคิดสู่คาร์บอน: การสร้างระบบ NFT แบบหลายเชนด้วย AI",
+    "description": "The label for doc 4.1 in sidebar projectSidebar"
+  },
+  "sidebar.projectSidebar.doc.1.1 Honest Reflection: AI Perspective on Repository Analysis": {
+    "message": "1.1 บันทึกความรู้สึกจริง: มุมมอง AI ต่อการวิเคราะห์ Repository",
+    "description": "The label for doc 1.1 in sidebar projectSidebar for Module 02"
+  },
+  "sidebar.projectSidebar.doc.1.2 Analysis Session Reality: Step-by-Step Discovery Process": {
+    "message": "1.2 ความเป็นจริงของเซสชันวิเคราะห์: กระบวนการค้นพบทีละขั้นตอน",
+    "description": "The label for doc 1.2 in sidebar projectSidebar for Module 02"
+  },
+  "sidebar.projectSidebar.doc.1.3 Code Exploration Insights: Technical Discoveries": {
+    "message": "1.3 ข้อมูลเชิงลึกการสำรวจโค้ด: การค้นพบทางเทคนิค",
+    "description": "The label for doc 1.3 in sidebar projectSidebar for Module 02"
+  },
+  "sidebar.projectSidebar.doc.1.4 Technical Discoveries: Production LIFF Patterns": {
+    "message": "1.4 การค้นพบทางเทคนิค: รูปแบบ LIFF ระดับ Production",
+    "description": "The label for doc 1.4 in sidebar projectSidebar for Module 02"
+  },
+  "sidebar.projectSidebar.doc.2.1 Codebase Architecture: System Design Analysis": {
+    "message": "2.1 สถาปัตยกรรมโค้ด: การวิเคราะห์การออกแบบระบบ",
+    "description": "The label for doc 2.1 in sidebar projectSidebar for Module 02"
+  },
+  "sidebar.projectSidebar.doc.2.2 Git History Analysis: Development Evolution": {
+    "message": "2.2 การวิเคราะห์ประวัติ Git: วิวัฒนาการการพัฒนา",
+    "description": "The label for doc 2.2 in sidebar projectSidebar for Module 02"
+  },
+  "sidebar.projectSidebar.doc.2.3 LIFF Implementation Review: LINE Platform Integration": {
+    "message": "2.3 การทบทวนการใช้งาน LIFF: การผสานรวมแพลตฟอร์ม LINE",
+    "description": "The label for doc 2.3 in sidebar projectSidebar for Module 02"
+  },
+  "sidebar.projectSidebar.doc.2.4 Environmental Impact Assessment: Carbon System Analysis": {
+    "message": "2.4 การประเมินผลกระทบต่อสิ่งแวดล้อม: การวิเคราะห์ระบบคาร์บอน",
+    "description": "The label for doc 2.4 in sidebar projectSidebar for Module 02"
+  },
+  "sidebar.projectSidebar.doc.3.1 Repository Final Report: Comprehensive Project Assessment": {
+    "message": "3.1 รายงานสรุป Repository: การประเมินโครงการอย่างครอบคลุม",
+    "description": "The label for doc 3.1 in sidebar projectSidebar for Module 02"
+  },
+  "sidebar.projectSidebar.doc.3.2 Technical Assessment: Code Quality and Architecture": {
+    "message": "3.2 การประเมินทางเทคนิค: คุณภาพโค้ดและสถาปัตยกรรม",
+    "description": "The label for doc 3.2 in sidebar projectSidebar for Module 02"
+  },
+  "sidebar.projectSidebar.doc.3.3 Sustainability Analysis: Environmental Authenticity": {
+    "message": "3.3 การวิเคราะห์ความยั่งยืน: ความน่าเชื่อถือด้านสิ่งแวดล้อม",
+    "description": "The label for doc 3.3 in sidebar projectSidebar for Module 02"
+  },
+  "sidebar.projectSidebar.doc.4.1 AI Repository Analysis Journey: LIFF Carbon Offset App": {
+    "message": "4.1 เส้นทางการวิเคราะห์ Repository ของ AI: แอป LIFF Carbon Offset",
+    "description": "The label for doc 4.1 in sidebar projectSidebar for Module 02"
   }
 }
