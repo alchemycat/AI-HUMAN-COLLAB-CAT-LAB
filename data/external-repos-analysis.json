@@ -1,0 +1,297 @@
+{
+  "generatedAt": "2025-06-11T05:40:53.142Z",
+  "repositories": [
+    {
+      "name": "uniserv-nft-erc721",
+      "url": "https://github.com/laris-co/uniserv-nft-erc721",
+      "stats": {
+        "totalCommits": 183,
+        "humanCommits": 183,
+        "aiCommits": 0,
+        "uniqueAuthors": 2,
+        "authors": [
+          "Nat W",
+          "Nat"
+        ],
+        "workingDays": 11,
+        "totalEstimatedHours": 69,
+        "weekendDays": 3,
+        "averageHoursPerDay": "6.3",
+        "mostActiveHour": "22:00",
+        "mostActiveWeekday": "Friday",
+        "dateRange": {
+          "first": "2025-05-30",
+          "last": "2025-06-09",
+          "durationDays": 11
+        },
+        "hourDistribution": {
+          "0": 8,
+          "5": 1,
+          "6": 2,
+          "7": 9,
+          "8": 13,
+          "9": 12,
+          "10": 4,
+          "11": 17,
+          "12": 18,
+          "13": 5,
+          "14": 5,
+          "15": 1,
+          "16": 4,
+          "17": 17,
+          "18": 1,
+          "19": 14,
+          "20": 5,
+          "21": 5,
+          "22": 24,
+          "23": 18
+        },
+        "weekdayDistribution": {
+          "Monday": 14,
+          "Sunday": 13,
+          "Saturday": 23,
+          "Friday": 47,
+          "Thursday": 43,
+          "Wednesday": 30,
+          "Tuesday": 13
+        }
+      },
+      "dailyBreakdown": {
+        "2025-06-09": {
+          "hours": {},
+          "commits": 3,
+          "authors": {},
+          "weekday": "Monday"
+        },
+        "2025-06-08": {
+          "hours": {},
+          "commits": 8,
+          "authors": {},
+          "weekday": "Sunday"
+        },
+        "2025-06-07": {
+          "hours": {},
+          "commits": 20,
+          "authors": {},
+          "weekday": "Sunday"
+        },
+        "2025-06-06": {
+          "hours": {},
+          "commits": 43,
+          "authors": {},
+          "weekday": "Friday"
+        },
+        "2025-06-05": {
+          "hours": {},
+          "commits": 37,
+          "authors": {},
+          "weekday": "Thursday"
+        },
+        "2025-06-04": {
+          "hours": {},
+          "commits": 36,
+          "authors": {},
+          "weekday": "Thursday"
+        },
+        "2025-06-03": {
+          "hours": {},
+          "commits": 11,
+          "authors": {},
+          "weekday": "Tuesday"
+        },
+        "2025-06-02": {
+          "hours": {},
+          "commits": 12,
+          "authors": {},
+          "weekday": "Tuesday"
+        },
+        "2025-06-01": {
+          "hours": {},
+          "commits": 4,
+          "authors": {},
+          "weekday": "Monday"
+        },
+        "2025-05-31": {
+          "hours": {},
+          "commits": 5,
+          "authors": {},
+          "weekday": "Saturday"
+        },
+        "2025-05-30": {
+          "hours": {},
+          "commits": 4,
+          "authors": {},
+          "weekday": "Friday"
+        }
+      }
+    },
+    {
+      "name": "liff-carbon-offset-app",
+      "url": "https://github.com/laris-co/liff-carbon-offset-app",
+      "stats": {
+        "totalCommits": 282,
+        "humanCommits": 282,
+        "aiCommits": 0,
+        "uniqueAuthors": 4,
+        "authors": [
+          "Nat W",
+          "Nat",
+          "dev-laris-co",
+          "dev.laris.co"
+        ],
+        "workingDays": 18,
+        "totalEstimatedHours": 94,
+        "weekendDays": 4,
+        "averageHoursPerDay": "5.2",
+        "mostActiveHour": "22:00",
+        "mostActiveWeekday": "Sunday",
+        "dateRange": {
+          "first": "2025-05-15",
+          "last": "2025-06-11",
+          "durationDays": 27
+        },
+        "hourDistribution": {
+          "0": 17,
+          "1": 12,
+          "2": 1,
+          "4": 5,
+          "7": 3,
+          "9": 1,
+          "10": 14,
+          "11": 15,
+          "12": 15,
+          "13": 19,
+          "14": 15,
+          "15": 10,
+          "16": 17,
+          "17": 15,
+          "18": 12,
+          "19": 21,
+          "20": 19,
+          "21": 25,
+          "22": 30,
+          "23": 16
+        },
+        "weekdayDistribution": {
+          "Wednesday": 22,
+          "Tuesday": 13,
+          "Monday": 28,
+          "Sunday": 85,
+          "Saturday": 78,
+          "Friday": 34,
+          "Thursday": 22
+        }
+      },
+      "dailyBreakdown": {
+        "2025-06-11": {
+          "hours": {},
+          "commits": 1,
+          "authors": {},
+          "weekday": "Wednesday"
+        },
+        "2025-06-10": {
+          "hours": {},
+          "commits": 5,
+          "authors": {},
+          "weekday": "Tuesday"
+        },
+        "2025-06-09": {
+          "hours": {},
+          "commits": 9,
+          "authors": {},
+          "weekday": "Monday"
+        },
+        "2025-06-08": {
+          "hours": {},
+          "commits": 75,
+          "authors": {},
+          "weekday": "Monday"
+        },
+        "2025-06-07": {
+          "hours": {},
+          "commits": 62,
+          "authors": {},
+          "weekday": "Sunday"
+        },
+        "2025-06-06": {
+          "hours": {},
+          "commits": 48,
+          "authors": {},
+          "weekday": "Saturday"
+        },
+        "2025-06-05": {
+          "hours": {},
+          "commits": 8,
+          "authors": {},
+          "weekday": "Friday"
+        },
+        "2025-06-04": {
+          "hours": {},
+          "commits": 19,
+          "authors": {},
+          "weekday": "Wednesday"
+        },
+        "2025-06-03": {
+          "hours": {},
+          "commits": 8,
+          "authors": {},
+          "weekday": "Tuesday"
+        },
+        "2025-06-02": {
+          "hours": {},
+          "commits": 7,
+          "authors": {},
+          "weekday": "Monday"
+        },
+        "2025-06-01": {
+          "hours": {},
+          "commits": 4,
+          "authors": {},
+          "weekday": "Sunday"
+        },
+        "2025-05-30": {
+          "hours": {},
+          "commits": 7,
+          "authors": {},
+          "weekday": "Friday"
+        },
+        "2025-05-29": {
+          "hours": {},
+          "commits": 14,
+          "authors": {},
+          "weekday": "Thursday"
+        },
+        "2025-05-26": {
+          "hours": {},
+          "commits": 5,
+          "authors": {},
+          "weekday": "Monday"
+        },
+        "2025-05-25": {
+          "hours": {},
+          "commits": 6,
+          "authors": {},
+          "weekday": "Sunday"
+        },
+        "2025-05-21": {
+          "hours": {},
+          "commits": 2,
+          "authors": {},
+          "weekday": "Wednesday"
+        },
+        "2025-05-19": {
+          "hours": {},
+          "commits": 1,
+          "authors": {},
+          "weekday": "Monday"
+        },
+        "2025-05-15": {
+          "hours": {},
+          "commits": 1,
+          "authors": {},
+          "weekday": "Thursday"
+        }
+      }
+    }
+  ]
+}
