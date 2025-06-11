@@ -18,7 +18,7 @@ const sidebars: SidebarsConfig = {
     'intro',
     {
       type: 'category',
-      label: '1️⃣ Project 001 - Uniserv NFT Carbon Credit',
+      label: '1️⃣ Module 01 - Uniserv NFT Carbon Credit',
       collapsed: true, // Collapsed by default
       items: [
         'uniserv-nft-carbon-credit/index',
@@ -110,7 +110,7 @@ const sidebars: SidebarsConfig = {
     },
     {
       type: 'category',
-      label: '2️⃣ Project 002 - LIFF Carbon Offset App',
+      label: '2️⃣ Module 02 - LIFF Carbon Offset App',
       collapsed: true, // Collapsed by default
       items: [
         'liff-carbon-offset-app/INDEX',
