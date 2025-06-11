@@ -636,10 +636,17 @@ a[class*="purple"] {
 
 /* Force maximum contrast on purple backgrounds - ONLY for active items */
 .menu__link--active,
-.menu__link--active * {
+.menu__link--active *,
+.menu__list-item > .menu__link--active,
+.theme-doc-sidebar-item-link a.menu__link--active {
   color: white !important;
   font-weight: 700 !important;
-  text-shadow: 2px 2px 4px rgba(0,0,0,0.8) !important;
+  text-shadow: 
+    0 0 2px #000,
+    0 0 4px #000,
+    1px 1px 2px rgba(0,0,0,0.9),
+    2px 2px 4px rgba(0,0,0,0.8) !important;
+  -webkit-text-stroke: 0.5px rgba(0,0,0,0.5);
 }
 
 /* Light theme specific fixes */
