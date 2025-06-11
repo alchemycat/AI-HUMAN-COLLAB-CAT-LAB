@@ -25,7 +25,7 @@ const sidebars: SidebarsConfig = {
         'uniserv-nft-carbon-credit/PROJECT_OVERVIEW',
         {
           type: 'category',
-          label: '1.1 📝 Personal Diary (5 docs)',
+          label: '1 📝 Personal Diary (5 docs)',
           collapsed: false, // Expanded when parent opens
           items: [
             'uniserv-nft-carbon-credit/diary/HONEST_REFLECTION',
@@ -37,7 +37,7 @@ const sidebars: SidebarsConfig = {
         },
         {
           type: 'category',
-          label: '1.2 🔍 Analysis (2 docs)',
+          label: '2 🔍 Analysis (2 docs)',
           collapsed: false, // Expanded when parent opens
           items: [
             'uniserv-nft-carbon-credit/analysis/CHALLENGES_AND_SOLUTIONS',
@@ -46,7 +46,7 @@ const sidebars: SidebarsConfig = {
         },
         {
           type: 'category',
-          label: '1.3 📊 Reports (3 docs)',
+          label: '3 📊 Reports (3 docs)',
           collapsed: false, // Expanded when parent opens
           items: [
             'uniserv-nft-carbon-credit/reports/PROJECT_FINAL_REPORT',
@@ -56,7 +56,7 @@ const sidebars: SidebarsConfig = {
         },
         {
           type: 'category',
-          label: '1.4 📖 Complete Story (1 doc)',
+          label: '4 📖 Complete Story (1 doc)',
           collapsed: false, // Expanded when parent opens
           items: [
             'uniserv-nft-carbon-credit/blog/AI_HUMAN_COLLABORATION_STORY',
@@ -72,7 +72,7 @@ const sidebars: SidebarsConfig = {
         'liff-carbon-offset-app/INDEX',
         {
           type: 'category',
-          label: '2.1 📝 AI Analysis Diary (4 docs)',
+          label: '1 📝 AI Analysis Diary (4 docs)',
           collapsed: false, // Expanded when parent opens
           items: [
             'liff-carbon-offset-app/diary/HONEST_REFLECTION',
@@ -83,7 +83,7 @@ const sidebars: SidebarsConfig = {
         },
         {
           type: 'category',
-          label: '2.2 🔍 Technical Analysis (4 docs)',
+          label: '2 🔍 Technical Analysis (4 docs)',
           collapsed: false, // Expanded when parent opens
           items: [
             'liff-carbon-offset-app/analysis/CODEBASE_ARCHITECTURE',
@@ -94,7 +94,7 @@ const sidebars: SidebarsConfig = {
         },
         {
           type: 'category',
-          label: '2.3 📊 Executive Reports (3 docs)',
+          label: '3 📊 Executive Reports (3 docs)',
           collapsed: false, // Expanded when parent opens
           items: [
             'liff-carbon-offset-app/reports/REPOSITORY_FINAL_REPORT',
@@ -104,7 +104,7 @@ const sidebars: SidebarsConfig = {
         },
         {
           type: 'category',
-          label: '2.4 📖 Analysis Story (1 doc)',
+          label: '4 📖 Analysis Story (1 doc)',
           collapsed: false, // Expanded when parent opens
           items: [
             'liff-carbon-offset-app/blog/LIFF_CARBON_ANALYSIS_STORY',
