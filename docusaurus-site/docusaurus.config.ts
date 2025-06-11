@@ -60,27 +60,7 @@ const config: Config = {
           editUrl:
             'https://github.com/alchemycat/AI-HUMAN-COLLAB-CAT-LAB/tree/main/docusaurus-site/',
         },
-        blog: {
-          routeBasePath: '/blog', // Move blog back to /blog
-          showReadingTime: true,
-          blogSidebarTitle: 'AI-Human Collaboration',
-          blogSidebarCount: 'ALL',
-          postsPerPage: 10,
-          blogTitle: 'AI-Human Collaboration Stories',
-          blogDescription: 'A collection of AI-human development partnerships',
-          feedOptions: {
-            type: ['rss', 'atom'],
-            xslt: true,
-          },
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/alchemycat/AI-HUMAN-COLLAB-CAT-LAB/tree/main/docusaurus-site/',
-          // Useful options to enforce blogging best practices
-          onInlineTags: 'warn',
-          onInlineAuthors: 'warn',
-          onUntruncatedBlogPosts: 'warn',
-        },
+        blog: false, // Disable blog plugin
         theme: {
           customCss: './src/css/custom.css',
         },
@@ -103,11 +83,6 @@ const config: Config = {
           sidebarId: 'projectSidebar',
           position: 'left',
           label: 'Documentation',
-        },
-        {
-          to: '/blog',
-          label: 'Stories',
-          position: 'left',
         },
         {
           type: 'localeDropdown',
