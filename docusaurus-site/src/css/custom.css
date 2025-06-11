@@ -40,18 +40,25 @@
 
 /* Fix navbar link contrast - ensure all navbar links are white */
 .navbar__link,
+.navbar__item,
 .navbar__item .navbar__link,
 .navbar__title,
-.navbar__brand {
+.navbar__brand,
+.navbar__items--right .navbar__link,
+.navbar__items--center .navbar__link {
   color: white !important;
   font-weight: 600;
-  text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.6);
 }
 
 .navbar__link:hover,
-.navbar__item .navbar__link:hover {
-  color: rgba(255,255,255,0.95) !important;
-  text-shadow: 2px 2px 6px rgba(0,0,0,0.9);
+.navbar__item:hover,
+.navbar__item .navbar__link:hover,
+.navbar__items--right .navbar__link:hover,
+.navbar__items--center .navbar__link:hover {
+  color: white !important;
+  opacity: 0.9;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.8);
 }
 
 .footer {
@@ -583,25 +590,29 @@ tr:nth-child(even) {
   font-weight: 700 !important;
 }
 
-/* Navbar Documentation and Stories links */
-.navbar__item .navbar__link {
+/* Navbar Documentation and Stories links - ensure visibility */
+.navbar__item .navbar__link,
+.navbar__items .navbar__link {
   color: white !important;
-  text-shadow: 2px 2px 4px rgba(0,0,0,0.8) !important;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.6) !important;
   font-weight: 600;
 }
 
-.navbar__item .navbar__link:hover {
-  color: rgba(255,255,255,0.95) !important;
-  text-shadow: 2px 2px 6px rgba(0,0,0,0.9) !important;
-  background: rgba(255,255,255,0.1);
+.navbar__item .navbar__link:hover,
+.navbar__items .navbar__link:hover {
+  color: white !important;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.8) !important;
+  background: rgba(255,255,255,0.15);
   border-radius: 4px;
 }
 
 /* Fix navbar link active state */
-.navbar__item .navbar__link--active {
+.navbar__item .navbar__link--active,
+.navbar__items .navbar__link--active {
   background: rgba(255,255,255,0.2);
   border-radius: 4px;
   font-weight: 700;
+  color: white !important;
 }
 
 /* Special purple button contrast fix */
